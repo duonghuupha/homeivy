@@ -581,6 +581,6 @@ include('layouts/header.php');
                 </div>
             </div>
         </section>
-        <?php
+<?php
 include('layouts/footer.php');
 ?>
