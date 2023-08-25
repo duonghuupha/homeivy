@@ -118,7 +118,7 @@
             <div class="footer-advanced-aside">
                 <div class="container">
                     <div class="footer-advanced-layout"><a class="brand" href="index.html"><img
-                                src="images/logo-inverse-334x88.png" alt="" width="167" height="44" /></a>
+                                src="images/Logo_tran.png" alt="" width="167" height="44" /></a>
                         <!-- Rights-->
                         <p class="rights"><span>&copy;&nbsp;</span><span
                                 class="copyright-year"></span><span>&nbsp;</span><span>All Rights

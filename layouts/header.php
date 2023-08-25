@@ -15,7 +15,7 @@
 </head>
 <body>
     <div class="preloader">
-        <div class="preloader-logo"><img src="images/logo-default-334x88.png" alt="" width="167" height="44" />
+        <div class="preloader-logo"><img src="images/Logo.png" alt="" width="167" height="44" />
         </div>
         <div class="preloader-body">
             <div id="loadingProgressG">
@@ -44,7 +44,7 @@
                                 <button class="rd-navbar-toggle"
                                     data-rd-navbar-toggle="#rd-navbar-nav-wrap"><span></span></button>
                                 <!-- RD Navbar Brand--><a class="rd-navbar-brand" href="index.html"><img
-                                        src="images/logo-default-334x88.png" alt="" width="167" height="44" /></a>
+                                        src="images/Logo.png" alt="" width="167" height="44" /></a>
                             </div>
                             <div class="rd-navbar-collapse">
                                 <button class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1"
