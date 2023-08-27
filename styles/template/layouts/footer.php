@@ -35,50 +35,50 @@
                             <h4>Our Projects</h4>
                             <div class="row row-x-10" data-lightgallery="group">
                                 <div class="col-3 col-sm-4 col-md-3"><a class="thumbnail-minimal"
-                                        href="<?php echo URL.'/styles/' ?>images/gallery-original-1-1200x800.jpg" data-lightgallery="item"><img
-                                            class="thumbnail-minimal-image" src="<?php echo URL.'/styles/' ?>images/footer-gallery-1-85x85.jpg"
+                                        href="images/gallery-original-1-1200x800.jpg" data-lightgallery="item"><img
+                                            class="thumbnail-minimal-image" src="images/footer-gallery-1-85x85.jpg"
                                             alt="" width="85" height="85" />
                                         <div class="thumbnail-minimal-caption"></div>
                                     </a></div>
                                 <div class="col-3 col-sm-4 col-md-3"><a class="thumbnail-minimal"
-                                        href="<?php echo URL.'/styles/' ?>images/gallery-original-2-1200x800.jpg" data-lightgallery="item"><img
-                                            class="thumbnail-minimal-image" src="<?php echo URL.'/styles/' ?>images/footer-gallery-2-85x85.jpg"
+                                        href="images/gallery-original-2-1200x800.jpg" data-lightgallery="item"><img
+                                            class="thumbnail-minimal-image" src="images/footer-gallery-2-85x85.jpg"
                                             alt="" width="85" height="85" />
                                         <div class="thumbnail-minimal-caption"></div>
                                     </a></div>
                                 <div class="col-3 col-sm-4 col-md-3"><a class="thumbnail-minimal"
-                                        href="<?php echo URL.'/styles/' ?>images/gallery-original-3-1200x800.jpg" data-lightgallery="item"><img
-                                            class="thumbnail-minimal-image" src="<?php echo URL.'/styles/' ?>images/footer-gallery-3-85x85.jpg"
+                                        href="images/gallery-original-3-1200x800.jpg" data-lightgallery="item"><img
+                                            class="thumbnail-minimal-image" src="images/footer-gallery-3-85x85.jpg"
                                             alt="" width="85" height="85" />
                                         <div class="thumbnail-minimal-caption"></div>
                                     </a></div>
                                 <div class="col-3 col-sm-4 col-md-3"><a class="thumbnail-minimal"
-                                        href="<?php echo URL.'/styles/' ?>images/gallery-original-4-1200x800.jpg" data-lightgallery="item"><img
-                                            class="thumbnail-minimal-image" src="<?php echo URL.'/styles/' ?>images/footer-gallery-4-85x85.jpg"
+                                        href="images/gallery-original-4-1200x800.jpg" data-lightgallery="item"><img
+                                            class="thumbnail-minimal-image" src="images/footer-gallery-4-85x85.jpg"
                                             alt="" width="85" height="85" />
                                         <div class="thumbnail-minimal-caption"></div>
                                     </a></div>
                                 <div class="col-3 col-sm-4 col-md-3"><a class="thumbnail-minimal"
-                                        href="<?php echo URL.'/styles/' ?>images/gallery-original-5-1200x800.jpg" data-lightgallery="item"><img
-                                            class="thumbnail-minimal-image" src="<?php echo URL.'/styles/' ?>images/footer-gallery-5-85x85.jpg"
+                                        href="images/gallery-original-5-1200x800.jpg" data-lightgallery="item"><img
+                                            class="thumbnail-minimal-image" src="images/footer-gallery-5-85x85.jpg"
                                             alt="" width="85" height="85" />
                                         <div class="thumbnail-minimal-caption"></div>
                                     </a></div>
                                 <div class="col-3 col-sm-4 col-md-3"><a class="thumbnail-minimal"
-                                        href="<?php echo URL.'/styles/' ?>images/gallery-original-6-1200x800.jpg" data-lightgallery="item"><img
-                                            class="thumbnail-minimal-image" src="<?php echo URL.'/styles/' ?>images/footer-gallery-6-85x85.jpg"
+                                        href="images/gallery-original-6-1200x800.jpg" data-lightgallery="item"><img
+                                            class="thumbnail-minimal-image" src="images/footer-gallery-6-85x85.jpg"
                                             alt="" width="85" height="85" />
                                         <div class="thumbnail-minimal-caption"> </div>
                                     </a></div>
                                 <div class="col-3 col-sm-4 col-md-3"><a class="thumbnail-minimal"
-                                        href="<?php echo URL.'/styles/' ?>images/gallery-original-7-1200x800.jpg" data-lightgallery="item"><img
-                                            class="thumbnail-minimal-image" src="<?php echo URL.'/styles/' ?>images/footer-gallery-7-85x85.jpg"
+                                        href="images/gallery-original-7-1200x800.jpg" data-lightgallery="item"><img
+                                            class="thumbnail-minimal-image" src="images/footer-gallery-7-85x85.jpg"
                                             alt="" width="85" height="85" />
                                         <div class="thumbnail-minimal-caption"></div>
                                     </a></div>
                                 <div class="col-3 col-sm-4 col-md-3"><a class="thumbnail-minimal"
-                                        href="<?php echo URL.'/styles/' ?>images/gallery-original-8-1200x800.jpg" data-lightgallery="item"><img
-                                            class="thumbnail-minimal-image" src="<?php echo URL.'/styles/' ?>images/footer-gallery-8-85x85.jpg"
+                                        href="images/gallery-original-8-1200x800.jpg" data-lightgallery="item"><img
+                                            class="thumbnail-minimal-image" src="images/footer-gallery-8-85x85.jpg"
                                             alt="" width="85" height="85" />
                                         <div class="thumbnail-minimal-caption"></div>
                                     </a></div>
@@ -118,7 +118,7 @@
             <div class="footer-advanced-aside">
                 <div class="container">
                     <div class="footer-advanced-layout"><a class="brand" href="index.html"><img
-                                src="<?php echo URL.'/styles/' ?>images/Logo_tran.png" alt="" width="167" height="44" /></a>
+                                src="images/Logo_tran.png" alt="" width="167" height="44" /></a>
                         <!-- Rights-->
                         <p class="rights"><span>&copy;&nbsp;</span><span
                                 class="copyright-year"></span><span>&nbsp;</span><span>All Rights
@@ -132,8 +132,8 @@
     <!-- Global Mailform Output-->
     <div class="snackbars" id="form-output-global"></div>
     <!-- Javascript-->
-    <script src="<?php echo URL.'/styles/' ?>js/core.min.js"></script>
-    <script src="<?php echo URL.'/styles/' ?>js/script.js"></script>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

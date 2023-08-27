@@ -1,0 +1,11 @@
+<?php
+include('block_1.php');
+include('block_2.php');
+include('block_3.php');
+include('block_4.php');
+include('block_5.php');
+include('block_6.php');
+include('block_7.php');
+include('block_8.php');
+include('block_9.php');
+?>
