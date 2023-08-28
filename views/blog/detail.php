@@ -1,110 +1,82 @@
-<?php
-$item = $this->json;
-?>
-        <section class="breadcrumbs-custom">
-            <div class="parallax-container" data-parallax-img="<?php echo URL.'/styles/' ?>images/bg-blog.jpg">
-                <div class="breadcrumbs-custom-body parallax-content context-dark">
-                    <div class="container">
-                        <h2 class="breadcrumbs-custom-title">Blog Post</h2>
-                    </div>
-                </div>
+<!-- Breadcrumbs-->
+<section class="breadcrumbs-custom bg-image" style="background-image: url(<?php echo URL.'/styles/' ?>images/breadcrumbs-bg.jpg);">
+    <div class="breadcrumbs-custom-inner">
+        <div class="breadcrumbs-custom-container container">
+            <div class="breadcrumbs-custom-main">
+                <h6 class="breadcrumbs-custom-subtitle title-decorated">Blog</h6>
+                <h1 class="breadcrumbs-custom-title">Ivyvet center</h1>
             </div>
-        </section>
-        <!-- Section Shop-->
-        <section class="section section-xl bg-default text-md-start">
-            <div class="container">
-                <div class="row row-50 row-md-60">
-                    <div class="col-lg-12 col-xl-12">
-                        <div class="inset-xl-right-100">
-                            <div class="row row-50 row-md-60 row-lg-80">
-                                <div class="col-12">
-                                    <article class="post post-modern-1 box-xxl">
-                                        <div class="post-modern-panel">
-                                            <div>
-                                                <a class="post-modern-tag" href="#">
-                                                    <?php echo $item[0]['category'] ?>
-                                                </a>
-                                            </div>
-                                            <div>
-                                                <time class="post-modern-time" datetime="<?php echo date("Y-m-d", strtotime($item[0]['create_at'])) ?>">
-                                                    <?php echo date("F d, Y", strtotime($item[0]['create_at'])) ?>
-                                                </time>
-                                            </div>
-                                        </div>
-                                        <h3 class="post-modern-title"><?php echo $item[0]['title'] ?></h3>
-                                        <?php
-                                        if($item[0]['display_img_detail']== 0){
-                                        ?>
-                                        <div class="post-modern-figure">
-                                            <img src="<?php echo URL_IMAGE.'/blogs/content/'.$item[0]['image'] ?>" alt="" width="800" height="394" />
-                                        </div>
-                                        <?php
-                                        }
-                                        ?>
-                                        <div><?php echo $item[0]['content'] ?></div>
-                                    </article>
-                                    <div class="single-post-bottom-panel">
-                                        <div class="group-sm group-justify">
-                                            <div>
-                                                <div class="group-sm group-tags">
-                                                    <a class="link-tag" href="#">svkherbl</a>
-                                                    <a class="link-tag" href="#">lanui.vn</a>
-                                                    <a class="link-tag" href="#">naturem.us</a>
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <div class="group-xs group-middle">
-                                                    <span class="list-social-title">Share</span>
-                                                    <div>
-                                                        <ul class="list-inline list-social list-inline-sm">
-                                                            <li><a class="icon mdi mdi-facebook" href="#"></a></li>
-                                                            <li><a class="icon mdi mdi-twitter" href="#"></a></li>
-                                                            <li><a class="icon mdi mdi-instagram" href="#"></a></li>
-                                                            <li><a class="icon mdi mdi-google-plus" href="#"></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <h6 class="single-post-title"><?php echo $this->_Language->array_lang('title_extra') ?></h6>
-                                    <div class="row row-30">
-                                        <?php
-                                        foreach($this->json_extra as $row){
-                                            $width = 370; $height = 239;
-                                            $img_src = $this->_Convert->convert_img('blogs/content/', $row['image'], $width, $height);
-                                        ?>
-                                        <div class="col-sm-6">
-                                            <article class="post post-classic box-md">
-                                                <a class="post-classic-figure" href="<?php echo URL.'/'.$this->_Convert->vn2latin($row['title'], true).'-post-'.base64_encode($row['id']).'.html' ?>">
-                                                    <img src="<?php echo URL_IMAGE.'/blogs/content/'.$width.'x'.$height.'/'.$img_src ?>" 
-                                                    alt="<?php echo $row['title'] ?>" width="370" height="239" />
-                                                </a>
-                                                <div class="post-classic-content">
-                                                    <div class="post-classic-time">
-                                                        <time datetime="<?php echo date("Y-m-d", strtotime($row['create_at'])) ?>">
-                                                            <?php echo date("F d, Y", strtotime($row['create_at'])) ?>
-                                                        </time>
-                                                    </div>
-                                                    <h5 class="post-classic-title">
-                                                        <a href="<?php echo URL.'/'.$this->_Convert->vn2latin($row['title'], true).'-post-'.base64_encode($row['id']).'.html' ?>"><?php echo $row['title'] ?></a>
-                                                    </h5>
-                                                    <p class="post-classic-text">
-                                                        <?php echo $this->_Convert->cut($row['description'], 150) ?>
-                                                    </p>
-                                                </div>
-                                            </article>
-                                        </div>
-                                        <?php
-                                        }
-                                        ?>
-                                    </div>
-                                </div>
-                            </div>
+        </div>
+    </div>
+</section>
+<section class="section section-lg">
+    <div class="container">
+        <div class="row row-50">
+            <div class="col-lg-12">
+                <article class="post-creative">
+                    <h3 class="post-creative-title">
+                        How To Keep Your Dog Cool In Summer: Useful Tips for Dog Owners
+                    </h3>
+                    <ul class="post-creative-meta">
+                        <li>
+                            <span class="icon mdi mdi-calendar-clock"></span>
+                            <time datetime="2020">May 9, 2020 at 6:09 pm</time>
+                        </li>
+                        <li>
+                            <span class="icon mdi mdi-tag-multiple"></span>
+                            <a href="#">Article</a>
+                        </li>
+                    </ul>
+                    <h4>Nunquam amor exsul. A falsis, capio lotus habitio. Est germanus cacula, cesaris. Rector secundus
+                        pulchritudine est. Eheu, fortis absolutio! Potus inciviliter ducunt ad festus historia. Azureus
+                        humani generis acceleratrix anhelares fermium est. Abnobas sunt solitudos de albus index.</h4>
+                    <img src="<?php echo URL.'/styles/' ?>images/single-blog-post-1-770x458.jpg" alt="" width="770" height="458" />
+                    <p>Cum cotta credere, omnes indexes acquirere secundus, teres eleateses. Emeritis elevatuss ducunt
+                        ad humani generis. Lapsuss potus in regius berolinum! Nixus experimentums, tanquam regius
+                        mineralis. Sunt planetaes transferre pius, placidus silvaes. Lixa de bi-color buxum, promissio
+                        luna! Est clemens consilium, cesaris. Mineralis velox agripeta est. Castors crescere! Heu,
+                        salvus habitio! Bassus torquiss ducunt ad luba. Clemens compaters ducunt ad nomen. Vae, lura!
+                        Burguss studere! Terrors sunt medicinas de barbatus fermium. Hercle, navis secundus!. Sunt
+                        abactuses talem germanus, azureus diatriaes. A falsis, adgium alter bromium. Cum pulchritudine
+                        potus, omnes tabeses attrahendam raptus, noster turpises?</p>
+                    <p>Hercle, bursa regius!. Hercle, idoleum talis!, brodium! Diatrias accelerare, tanquam peritus
+                        usus. Pol, a bene barcas, altus sensorem! Heu. Lotus, bassus quadras rare carpseris de peritus,
+                        domesticus mensa.</p>
+                    <!-- Quote Light-->
+                    <blockquote class="quote-light">
+                        <svg class="quote-light-mark" x="0px" y="0px" width="35px" height="25px" viewbox="0 0 35 25">
+                            <path
+                                d="M27.461,10.206h7.5v15h-15v-15L25,0.127h7.5L27.461,10.206z M7.539,10.206h7.5v15h-15v-15L4.961,0.127h7.5                L7.539,10.206z">
+                            </path>
+                        </svg>
+                        <div class="quote-light-text">
+                            <p>Cur candidatus peregrinationes? Grandis, primus ususs mechanice experientia de emeritis,
+                                festus historia.</p>
                         </div>
-                    </div>
-                </div>
+                    </blockquote><img src="<?php echo URL.'/styles/' ?>images/single-blog-post-2-770x458.jpg" alt="" width="770" height="458" />
+                    <p>Lunas sunt candidatuss de audax fuga. Vae, adgium! Est barbatus medicina, cesaris. Amicitia
+                        peritus diatria est. Exsuls experimentum, tanquam peritus bulla. Elogium de raptus amicitia,
+                        anhelare lacta! A falsis, cursus peritus sectam. Amicitia varius olla est. Fuga de camerarius
+                        mineralis, imitari eleates! Ubi est brevis exsul? Fidelis, clemens monss semper acquirere de
+                        primus, germanus brabeuta.</p>
+                    <p>Ubi est salvus burgus? Mineraliss mori, tanquam pius detrius. Altus, clemens toruss una
+                        attrahendam de noster, superbus homo. Lacteas peregrinationes in alta muta! Ubi est flavum
+                        castor? Hilotaes volare! Heuretess sunt medicinas de castus decor. Tuss sunt toruss de albus
+                        castor. Lixa moris, tanquam teres abactor. Extum experimentums, tanquam regius fluctui. Albus,
+                        alter nomens etiam promissio de fatalis, emeritis canis.</p>
+                    <ul class="post-creative-footer">
+                        <li>Share this post!</li>
+                        <li>
+                            <div class="group group-xs group-middle"><a
+                                    class="icon icon-sm icon-creative mdi mdi-facebook" href="#"></a><a
+                                    class="icon icon-sm icon-creative mdi mdi-twitter" href="#"></a><a
+                                    class="icon icon-sm icon-creative mdi mdi-instagram" href="#"></a><a
+                                    class="icon icon-sm icon-creative mdi mdi-google" href="#"></a><a
+                                    class="icon icon-sm icon-creative mdi mdi-linkedin" href="#"></a></div>
+                        </li>
+                    </ul>
+                </article>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
