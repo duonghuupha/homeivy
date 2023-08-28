@@ -4,84 +4,65 @@
                 <div class="container">
                     <div class="row row-50">
                         <div class="col-lg-4">
-                            <h4>About Us</h4>
+                            <h4>Về chúng tôi</h4>
                             <p class="footer-advanced-text">Our firm is one of the leading accounting firms in the area.
                                 By combining our expertise, experience and the energy of our staff, each client receives
                                 close personal and professional attention. Our high standards, service and specialized
                                 staff spell the difference between our outstanding performance and other firms.</p>
                         </div>
                         <div class="col-sm-6 col-lg-4">
-                            <h4>Recent Blog Posts</h4>
+                            <h4>Bài viết gần đây</h4>
                             <!-- Post Inline-->
                             <article class="post-inline">
-                                <p class="post-inline-title"><a href="single-blog-post.html">Top Tips from Accountants:
-                                        How To Handle IRS Scams</a></p>
+                                <p class="post-inline-title">
+                                    <a href="single-blog-post.html">
+                                        Top Tips from Accountants: How To Handle IRS Scams
+                                    </a>
+                                </p>
                                 <ul class="post-inline-meta">
                                     <li>by Theresa Barnes</li>
-                                    <li><a href="single-blog-post.html">2 days ago</a></li>
+                                    <li>
+                                        <a href="single-blog-post.html">2 days ago</a>
+                                    </li>
                                 </ul>
                             </article>
                             <!-- Post Inline-->
                             <article class="post-inline">
-                                <p class="post-inline-title"><a href="single-blog-post.html">Blogging for Financial
-                                        Advisors: Build a Trusted Relationship Through Your Blog</a></p>
+                                <p class="post-inline-title">
+                                    <a href="single-blog-post.html">
+                                        Blogging for Financial
+                                        Advisors: Build a Trusted Relationship Through Your Blog
+                                    </a>
+                                </p>
                                 <ul class="post-inline-meta">
                                     <li>by Theresa Barnes</li>
-                                    <li><a href="single-blog-post.html">2 days ago</a></li>
+                                    <li>
+                                        <a href="single-blog-post.html">2 days ago</a>
+                                    </li>
                                 </ul>
                             </article>
                         </div>
                         <div class="col-sm-6 col-lg-4 block-1">
-                            <h4>Our Projects</h4>
+                            <h4>Chúng tôi đã làm</h4>
                             <div class="row row-x-10" data-lightgallery="group">
-                                <div class="col-3 col-sm-4 col-md-3"><a class="thumbnail-minimal"
-                                        href="<?php echo URL.'/styles/' ?>images/gallery-original-1-1200x800.jpg" data-lightgallery="item"><img
-                                            class="thumbnail-minimal-image" src="<?php echo URL.'/styles/' ?>images/footer-gallery-1-85x85.jpg"
-                                            alt="" width="85" height="85" />
+                                <?php
+                                for($i = 1; $i <= 8; $i++){
+                                ?>
+                                <div class="col-3 col-sm-4 col-md-3">
+                                    <a class="thumbnail-minimal" 
+                                        href="<?php echo URL.'/styles/' ?>images/gallery-original-1-1200x800.jpg" 
+                                        data-lightgallery="item">
+                                        <img class="thumbnail-minimal-image" 
+                                            src="<?php echo URL.'/styles/' ?>images/footer-gallery-1-85x85.jpg"
+                                            alt="" 
+                                            width="85" 
+                                            height="85" />
                                         <div class="thumbnail-minimal-caption"></div>
-                                    </a></div>
-                                <div class="col-3 col-sm-4 col-md-3"><a class="thumbnail-minimal"
-                                        href="<?php echo URL.'/styles/' ?>images/gallery-original-2-1200x800.jpg" data-lightgallery="item"><img
-                                            class="thumbnail-minimal-image" src="<?php echo URL.'/styles/' ?>images/footer-gallery-2-85x85.jpg"
-                                            alt="" width="85" height="85" />
-                                        <div class="thumbnail-minimal-caption"></div>
-                                    </a></div>
-                                <div class="col-3 col-sm-4 col-md-3"><a class="thumbnail-minimal"
-                                        href="<?php echo URL.'/styles/' ?>images/gallery-original-3-1200x800.jpg" data-lightgallery="item"><img
-                                            class="thumbnail-minimal-image" src="<?php echo URL.'/styles/' ?>images/footer-gallery-3-85x85.jpg"
-                                            alt="" width="85" height="85" />
-                                        <div class="thumbnail-minimal-caption"></div>
-                                    </a></div>
-                                <div class="col-3 col-sm-4 col-md-3"><a class="thumbnail-minimal"
-                                        href="<?php echo URL.'/styles/' ?>images/gallery-original-4-1200x800.jpg" data-lightgallery="item"><img
-                                            class="thumbnail-minimal-image" src="<?php echo URL.'/styles/' ?>images/footer-gallery-4-85x85.jpg"
-                                            alt="" width="85" height="85" />
-                                        <div class="thumbnail-minimal-caption"></div>
-                                    </a></div>
-                                <div class="col-3 col-sm-4 col-md-3"><a class="thumbnail-minimal"
-                                        href="<?php echo URL.'/styles/' ?>images/gallery-original-5-1200x800.jpg" data-lightgallery="item"><img
-                                            class="thumbnail-minimal-image" src="<?php echo URL.'/styles/' ?>images/footer-gallery-5-85x85.jpg"
-                                            alt="" width="85" height="85" />
-                                        <div class="thumbnail-minimal-caption"></div>
-                                    </a></div>
-                                <div class="col-3 col-sm-4 col-md-3"><a class="thumbnail-minimal"
-                                        href="<?php echo URL.'/styles/' ?>images/gallery-original-6-1200x800.jpg" data-lightgallery="item"><img
-                                            class="thumbnail-minimal-image" src="<?php echo URL.'/styles/' ?>images/footer-gallery-6-85x85.jpg"
-                                            alt="" width="85" height="85" />
-                                        <div class="thumbnail-minimal-caption"> </div>
-                                    </a></div>
-                                <div class="col-3 col-sm-4 col-md-3"><a class="thumbnail-minimal"
-                                        href="<?php echo URL.'/styles/' ?>images/gallery-original-7-1200x800.jpg" data-lightgallery="item"><img
-                                            class="thumbnail-minimal-image" src="<?php echo URL.'/styles/' ?>images/footer-gallery-7-85x85.jpg"
-                                            alt="" width="85" height="85" />
-                                        <div class="thumbnail-minimal-caption"></div>
-                                    </a></div>
-                                <div class="col-3 col-sm-4 col-md-3"><a class="thumbnail-minimal"
-                                        href="<?php echo URL.'/styles/' ?>images/gallery-original-8-1200x800.jpg" data-lightgallery="item"><img
-                                            class="thumbnail-minimal-image" src="<?php echo URL.'/styles/' ?>images/footer-gallery-8-85x85.jpg"
-                                            alt="" width="85" height="85" />
-                                        <div class="thumbnail-minimal-caption"></div>
-                                    </a></div>
+                                    </a>
+                                </div>
+                                <?php
+                                }
+                                ?>
                             </div>
                         </div>
                     </div>
@@ -92,21 +73,34 @@
                     <div class="footer-advanced-layout">
                         <div>
                             <ul class="list-nav">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about-us.html">About</a></li>
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="grid-gallery.html">Gallery</a></li>
-                                <li><a href="grid-blog.html">Blog</a></li>
-                                <li><a href="contacts.html">Contacts</a></li>
+                                <li><a href="#">Trang chủ</a></li>
+                                <li><a href="#">Về chúng tôi</a></li>
+                                <li><a href="#">Dịch vụ</a></li>
+                                <li><a href="#">Shop</a></li>
+                                <li><a href="#">Tin tức</a></li>
+                                <li><a href="#">Liên hệ</a></li>
                             </ul>
                         </div>
                         <div>
                             <ul class="list-inline list-inline-md">
-                                <li><a class="icon icon-sm link-gray-light mdi mdi-facebook" href="#"></a></li>
-                                <li><a class="icon icon-sm link-gray-light mdi mdi-twitter" href="#"></a></li>
-                                <li><a class="icon icon-sm link-gray-light mdi mdi-instagram" href="#"></a></li>
-                                <li><a class="icon icon-sm link-gray-light mdi mdi-google" href="#"></a></li>
-                                <li><a class="icon icon-sm link-gray-light mdi mdi-linkedin" href="#"></a></li>
+                                <li>
+                                    <a class="icon icon-sm link-gray-light mdi mdi-facebook" 
+                                        href="https://www.facebook.com/trungtamthucungivyvet"
+                                        target="_blank">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="icon icon-sm link-gray-light mdi mdi-twitter" href="#"></a>
+                                </li>
+                                <li>
+                                    <a class="icon icon-sm link-gray-light mdi mdi-instagram" href="#"></a>
+                                </li>
+                                <li>
+                                    <a class="icon icon-sm link-gray-light mdi mdi-google" href="#"></a>
+                                </li>
+                                <li>
+                                    <a class="icon icon-sm link-gray-light mdi mdi-linkedin" href="#"></a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -117,13 +111,20 @@
             </div>
             <div class="footer-advanced-aside">
                 <div class="container">
-                    <div class="footer-advanced-layout"><a class="brand" href="index.html"><img
-                                src="<?php echo URL.'/styles/' ?>images/Logo_tran.png" alt="" width="167" height="44" /></a>
+                    <div class="footer-advanced-layout">
+                        <a class="brand" href="index.html">
+                            <img src="<?php echo URL.'/styles/' ?>images/Logo_tran.png" alt="" width="167" height="44" />
+                        </a>
                         <!-- Rights-->
-                        <p class="rights"><span>&copy;&nbsp;</span><span
-                                class="copyright-year"></span><span>&nbsp;</span><span>All Rights
-                                Reserved.</span><span>&nbsp;</span><br class="d-sm-none" /><a
-                                href="privacy-policy.html">Privacy Policy</a></p>
+                        <p class="rights">
+                            <span>&copy;&nbsp;</span>
+                            <span class="copyright-year"></span>
+                            <span>&nbsp;</span>
+                            <span>Mọi quyền được bảo lưu.</span>
+                            <span>&nbsp;</span>
+                            <br class="d-sm-none" />
+                            <a href="privacy-policy.html">Chính sách bảo mật</a>
+                        </p>
                     </div>
                 </div>
             </div>

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html class="wide wow-animation" lang="en">
+<html class="wide wow-animation" lang="vi">
 
 <head>
-    <title>Home</title>
+    <title>Trung tâm thú cưng IVYVET</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width height=device-height initial-scale=1.0 maximum-scale=1.0 user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <link rel="icon" href="<?php echo URL.'/styles/' ?>images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="<?php echo URL.'/styles/' ?>images/Logo_1.png" type="image/x-icon">
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Work+Sans:300,700,800%7COswald:300,400,500">
     <link rel="stylesheet" href="<?php echo URL.'/styles/' ?>css/style.css">
@@ -28,14 +28,23 @@
         <header class="section page-header">
             <!-- RD Navbar-->
             <div class="rd-navbar-wrap">
-                <nav class="rd-navbar rd-navbar-corporate" data-layout="rd-navbar-fixed"
-                    data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed"
-                    data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static"
-                    data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static"
-                    data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static"
-                    data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="118px"
-                    data-xl-stick-up-offset="118px" data-xxl-stick-up-offset="118px" data-lg-stick-up="true"
-                    data-xl-stick-up="true" data-xxl-stick-up="true">
+                <nav class="rd-navbar rd-navbar-corporate" 
+                    data-layout="rd-navbar-fixed"
+                    data-sm-layout="rd-navbar-fixed" 
+                    data-md-layout="rd-navbar-fixed"
+                    data-md-device-layout="rd-navbar-fixed" 
+                    data-lg-layout="rd-navbar-static"
+                    data-lg-device-layout="rd-navbar-fixed" 
+                    data-xl-layout="rd-navbar-static"
+                    data-xl-device-layout="rd-navbar-static" 
+                    data-xxl-layout="rd-navbar-static"
+                    data-xxl-device-layout="rd-navbar-static" 
+                    data-lg-stick-up-offset="118px"
+                    data-xl-stick-up-offset="118px" 
+                    data-xxl-stick-up-offset="118px" 
+                    data-lg-stick-up="true"
+                    data-xl-stick-up="true" 
+                    data-xxl-stick-up="true">
                     <div class="rd-navbar-aside-outer">
                         <div class="rd-navbar-aside">
                             <!-- RD Navbar Panel-->
@@ -44,7 +53,7 @@
                                 <button class="rd-navbar-toggle" data-rd-navbar-toggle="#rd-navbar-nav-wrap">
                                     <span></span>
                                 </button>
-                                <a class="rd-navbar-brand" href="index.html">
+                                <a class="rd-navbar-brand" href="/">
                                     <img src="<?php echo URL.'/styles/' ?>images/Logo.png" alt="" width="167" height="44" />
                                 </a>
                             </div>
@@ -59,8 +68,8 @@
                                         </div>
                                         <div class="unit-body">
                                             <ul class="list-0">
-                                                <li><a class="link-default" href="tel:#">1-800-1234-567</a></li>
-                                                <li><a class="link-default" href="tel:#">1-800-8763-765</a></li>
+                                                <li><a class="link-default" href="tel:#">089 9315 115</a></li>
+                                                <li><a class="link-default" href="tel:#">034 9697 096</a></li>
                                             </ul>
                                         </div>
                                     </article>
@@ -70,13 +79,13 @@
                                         </div>
                                         <div class="unit-body">
                                             <a class="link-default text-nowrap" href="#">
-                                                2130 Fulton Street 
+                                                Số 41, Đào Xuyên, Đa Tốn 
                                                 <br> 
-                                                San Diego, CA 94117-1080
+                                                Gia Lâm, Hà Nội
                                             </a>
                                         </div>
                                     </article>
-                                    <a class="button button-primary-outline button-winona" href="#">Request a call</a>
+                                    <a class="button button-primary-outline button-winona" href="#">Yêu cầu cuộc gọi</a>
                                 </div>
                             </div>
                         </div>
@@ -89,9 +98,9 @@
                                     <button class="rd-navbar-search-toggle" data-rd-navbar-toggle="#rd-navbar-search">
                                         <span></span>
                                     </button>
-                                    <form class="rd-search" action="search-results.html" data-search-live="rd-search-results-live" method="GET">
+                                    <form class="rd-search" data-search-live="rd-search-results-live" method="Post">
                                         <div class="form-wrap">
-                                            <label class="form-label" for="rd-navbar-search-form-input">Search...</label>
+                                            <label class="form-label" for="rd-navbar-search-form-input">Tìm kiếm...</label>
                                             <input class="form-input rd-navbar-search-form-input"
                                                 id="rd-navbar-search-form-input" 
                                                 type="text" 
@@ -104,111 +113,28 @@
                                 </div>
                                 <ul class="rd-navbar-nav">
                                     <li class="rd-nav-item active">
-                                        <a class="rd-nav-link" href="index.html">Home</a>
+                                        <a class="rd-nav-link" href="#">Trang chủ</a>
                                     </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="#">Features</a>
+                                    <li class="rd-nav-item">
+                                        <a class="rd-nav-link" href="#">Về chúng tôi</a>
+                                    </li>
+                                    <li class="rd-nav-item"><a class="rd-nav-link" href="#">Dịch vụ</a>
                                         <ul class="rd-menu rd-navbar-dropdown">
-                                            <li class="rd-dropdown-item"><a class="rd-dropdown-link"
-                                                    href="typography.html">Typography</a>
-                                            </li>
-                                            <li class="rd-dropdown-item"><a class="rd-dropdown-link"
-                                                    href="buttons.html">Buttons</a>
-                                            </li>
-                                            <li class="rd-dropdown-item"><a class="rd-dropdown-link"
-                                                    href="forms.html">Forms</a>
-                                            </li>
-                                            <li class="rd-dropdown-item"><a class="rd-dropdown-link"
-                                                    href="progress-bars.html">Progress bars</a>
-                                            </li>
-                                            <li class="rd-dropdown-item"><a class="rd-dropdown-link"
-                                                    href="tabs.html">Tabs</a>
-                                            </li>
-                                            <li class="rd-dropdown-item"><a class="rd-dropdown-link"
-                                                    href="tables.html">Tables</a>
-                                            </li>
-                                            <li class="rd-dropdown-item"><a class="rd-dropdown-link"
-                                                    href="accordions.html">Accordions</a>
+                                            <li class="rd-dropdown-item">
+                                                <a class="rd-dropdown-link"  href="#">Khám chữa bệnh</a>
+                                                <a class="rd-dropdown-link"  href="#">Tiêm phòng bệnh</a>
+                                                <a class="rd-dropdown-link"  href="#">Spa Gorming</a>
                                             </li>
                                         </ul>
                                     </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="services.html">Services</a>
-                                        <ul class="rd-menu rd-navbar-dropdown">
-                                            <li class="rd-dropdown-item"><a class="rd-dropdown-link"
-                                                    href="single-service.html">Single Service</a>
-                                            </li>
-                                        </ul>
+                                    <li class="rd-nav-item">
+                                        <a class="rd-nav-link" href="#">Shop</a>
                                     </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="#">Blog</a>
-                                        <ul class="rd-menu rd-navbar-dropdown">
-                                            <li class="rd-dropdown-item"><a class="rd-dropdown-link"
-                                                    href="grid-blog.html">Grid Blog</a>
-                                            </li>
-                                            <li class="rd-dropdown-item"><a class="rd-dropdown-link"
-                                                    href="sidebar-blog.html">Sidebar Blog</a>
-                                            </li>
-                                            <li class="rd-dropdown-item"><a class="rd-dropdown-link"
-                                                    href="single-blog-post.html">Single Blog Post</a>
-                                            </li>
-                                        </ul>
+                                    <li class="rd-nav-item">
+                                        <a class="rd-nav-link" href="#">Tin tức</a>
                                     </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="#">Portfolio</a>
-                                        <ul class="rd-menu rd-navbar-dropdown">
-                                            <li class="rd-dropdown-item"><a class="rd-dropdown-link"
-                                                    href="grid-gallery.html">Grid Gallery</a>
-                                            </li>
-                                            <li class="rd-dropdown-item"><a class="rd-dropdown-link"
-                                                    href="masonry-gallery.html">Masonry Gallery</a>
-                                            </li>
-                                            <li class="rd-dropdown-item"><a class="rd-dropdown-link"
-                                                    href="modern-gallery.html">Modern Gallery</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="#">Pages</a>
-                                        <ul class="rd-menu rd-navbar-megamenu">
-                                            <li class="rd-megamenu-item">
-                                                <div class="banner"
-                                                    style="background-image: url(<?php echo URL.'/styles/' ?>images/megamenu-banner-1-570x368.jpg);">
-                                                    <a class="button button-sm button-primary button-winona"
-                                                        href="https://www.templatemonster.com/website-templates/casecraft-elegant-financial-company-multipage-website-template-69119.html"
-                                                        target="_blank">Buy Theme</a>
-                                                </div>
-                                            </li>
-                                            <li class="rd-megamenu-item">
-                                                <ul class="rd-megamenu-list">
-                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
-                                                            href="404-page.html">404 Page</a></li>
-                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
-                                                            href="503-page.html">503 Page</a></li>
-                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
-                                                            href="coming-soon.html">Coming Soon</a></li>
-                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
-                                                            href="under-construction.html">Under Construction</a></li>
-                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
-                                                            href="about-us.html">About Us</a></li>
-                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
-                                                            href="about-me.html">About Me</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="rd-megamenu-item">
-                                                <ul class="rd-megamenu-list">
-                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
-                                                            href="careers.html">Careers</a></li>
-                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
-                                                            href="search-results.html">Search results</a></li>
-                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
-                                                            href="services.html">Services</a></li>
-                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
-                                                            href="single-service.html">Single Service</a></li>
-                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
-                                                            href="single-job.html">Single Job</a></li>
-                                                    <li class="rd-megamenu-list-item"><a class="rd-megamenu-list-link"
-                                                            href="privacy-policy.html">Privacy policy</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Contacts</a>
+                                    <li class="rd-nav-item">
+                                        <a class="rd-nav-link" href="contacts.html">Liên hệ</a>
                                     </li>
                                 </ul>
                             </div>
