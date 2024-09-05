@@ -5,10 +5,10 @@
                     <div class="row row-50">
                         <div class="col-lg-4">
                             <h4>Về chúng tôi</h4>
-                            <p class="footer-advanced-text">Our firm is one of the leading accounting firms in the area.
-                                By combining our expertise, experience and the energy of our staff, each client receives
-                                close personal and professional attention. Our high standards, service and specialized
-                                staff spell the difference between our outstanding performance and other firms.</p>
+                            <p class="footer-advanced-text">
+                                Trung tâm thú y IVYVET là một cơ sở chăm sóc sức khỏe cho thú cưng với đội ngũ bác sĩ thú y chuyên nghiệp và tận tâm. 
+                                IVYVET cung cấp các dịch vụ đa dạng như khám và điều trị bệnh, tiêm phòng, phẫu thuật, và tư vấn dinh dưỡng cho thú cưng. 
+                                Với trang thiết bị hiện đại và môi trường thân thiện, IVYVET cam kết mang đến sự chăm sóc tốt nhất cho các "người bạn bốn chân" của bạn.</p>
                         </div>
                         <div class="col-sm-6 col-lg-4">
                             <h4>Bài viết gần đây</h4>
@@ -43,7 +43,7 @@
                             </article>
                         </div>
                         <div class="col-sm-6 col-lg-4 block-1">
-                            <h4>Chúng tôi đã làm</h4>
+                            <h4>Kết nối với chúng tôi</h4>
                             <div class="row row-x-10" data-lightgallery="group">
                                 <?php
                                 for($i = 1; $i <= 8; $i++){

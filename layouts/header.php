@@ -121,7 +121,7 @@
                                     <li class="rd-nav-item"><a class="rd-nav-link" href="#">Dịch vụ</a>
                                         <ul class="rd-menu rd-navbar-dropdown">
                                             <li class="rd-dropdown-item">
-                                                <a class="rd-dropdown-link"  href="#">Khám chữa bệnh</a>
+                                                <a class="rd-dropdown-link"  href="#">Khám - Điều trị</a>
                                                 <a class="rd-dropdown-link"  href="#">Tiêm phòng bệnh</a>
                                                 <a class="rd-dropdown-link"  href="#">Spa Gorming</a>
                                             </li>
@@ -134,7 +134,7 @@
                                         <a class="rd-nav-link" href="#">Tin tức</a>
                                     </li>
                                     <li class="rd-nav-item">
-                                        <a class="rd-nav-link" href="contacts.html">Liên hệ</a>
+                                        <a class="rd-nav-link" href="contact.html">Liên hệ</a>
                                     </li>
                                 </ul>
                             </div>

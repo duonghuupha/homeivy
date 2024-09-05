@@ -9,9 +9,10 @@
                         <article class="box-minimal">
                             <div class="box-minimal-icon linearicons-star wow fadeIn"></div>
                             <div class="box-minimal-main wow-outer">
-                                <h4 class="box-minimal-title wow slideInDown">Qualified Employees</h4>
-                                <p class="wow fadeInUpSmall">Our team consists of more than 20 qualified and
-                                    experienced accountants, marketers, and managers.</p>
+                                <h4 class="box-minimal-title wow slideInDown">Nhân viên có trình độ</h4>
+                                <p class="wow fadeInUpSmall">
+                                    Đội ngũ nhân viên tại IVYVET bao gồm các bác sĩ thú y, kỹ thuật viên thú y, 
+                                    và nhân viên hỗ trợ, tất cả đều được đào tạo bài bản và có trình độ cao trong lĩnh vực thú y.</p>
                             </div>
                         </article>
                     </div>
@@ -21,8 +22,7 @@
                             <div class="box-minimal-icon linearicons-heart wow fadeIn" data-wow-delay=".1s">
                             </div>
                             <div class="box-minimal-main wow-outer">
-                                <h4 class="box-minimal-title wow slideInDown" data-wow-delay=".1s">Free
-                                    Consultations</h4>
+                                <h4 class="box-minimal-title wow slideInDown" data-wow-delay=".1s">Tư vấn miễn phí</h4>
                                 <p class="wow fadeInUpSmall" data-wow-delay=".1s">Our acquaintance with a client
                                     always begins with a free consultation to find out possible solutions to
                                     their problems.</p>

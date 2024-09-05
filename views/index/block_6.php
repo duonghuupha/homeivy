@@ -3,7 +3,7 @@
     <div class="decor-1"><img src="<?php echo URL.'/styles/' ?>images/bubbles-171x230.png" alt="" width="171" height="230" />
     </div>
     <div class="container">
-        <h3 class="wow-outer text-center"><span class="wow slideInDown">Pricing</span></h3>
+        <h3 class="wow-outer text-center"><span class="wow slideInDown">Bảng giá</span></h3>
         <div class="row row-30">
             <div class="col-sm-6 col-lg-4 wow-outer">
                 <!-- Pricing Minimal-->

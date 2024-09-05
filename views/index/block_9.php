@@ -3,7 +3,7 @@
     <div class="decor-1"><img src="<?php echo URL.'/styles/' ?>images/bubbles-187x131.png" alt="" width="187" height="131" />
     </div>
     <div class="container">
-        <h3 class="wow-outer text-center"><span class="wow slideInDown">Latest Blog Posts</span></h3>
+        <h3 class="wow-outer text-center"><span class="wow slideInDown">Tin tức</span></h3>
         <div class="row row-50">
             <div class="col-md-6 wow-outer">
                 <!-- Post Modern-->
@@ -45,6 +45,6 @@
             </div>
         </div>
         <div class="wow-outer button-outer"><a class="button button-primary-outline button-winona wow slideInUp"
-                href="grid-blog.html">View all Blog posts</a></div>
+                href="grid-blog.html">Xem tất cả các bài viết</a></div>
     </div>
 </section>

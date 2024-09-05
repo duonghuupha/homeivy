@@ -1,7 +1,7 @@
 <!-- Testimonials-->
 <section class="section section-lg text-center">
     <div class="container">
-        <h3 class="wow-outer"><span class="wow slideInDown">Testimonials</span></h3>
+        <h3 class="wow-outer"><span class="wow slideInDown">Khách hàng nói về chúng tôi</span></h3>
         <!-- Owl Carousel-->
         <div class="owl-carousel wow fadeIn" data-items="1" data-md-items="2" data-lg-items="3" data-dots="true"
             data-nav="false" data-loop="true" data-margin="30" data-stage-padding="0" data-mouse-drag="false">

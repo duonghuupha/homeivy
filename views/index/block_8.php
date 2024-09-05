@@ -9,13 +9,19 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-sm-10 col-lg-7 col-xl-6">
-                <h3 class="wow-outer"><span class="wow slideInDown">Best Grooming Services for Your Furry
-                        Friend</span></h3>
-                <p class="wow-outer offset-top-3"><span class="wow slideInDown" data-wow-delay=".05s">Our dog
-                        grooming salon is always ready to offer the best services for your pets. Schedule an
-                        appointment to make your dog look awesome!</span></p>
+                <h3 class="wow-outer">
+                    <span class="wow slideInDown">
+                     Dịch vụ chăm sóc tốt nhất cho thú cưng của bạn
+                    </span>
+                </h3>
+                <p class="wow-outer offset-top-3">
+                    <span class="wow slideInDown" data-wow-delay=".05s">
+                    Trung tâm thú cưng IVYVET luôn sẵn sàng cung cấp những dịch vụ tốt nhất cho thú cưng của bạn. Lên lịch hẹn để
+                    giúp thú cưng của bạn trông tuyệt vời hơn
+                    </span>
+                </p>
                 <div class="wow-outer button-outer"><a class="button button-primary button-winona wow slideInDown"
-                        href="#" data-wow-delay=".1s">Free consultation</a></div>
+                        href="#" data-wow-delay=".1s">Đặt lịch hẹn</a></div>
             </div>
         </div>
     </div>

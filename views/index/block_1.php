@@ -8,11 +8,10 @@
                     <div class="swiper-slide-caption">
                         <div class="row row-30">
                             <div class="col-lg-6 text-center text-lg-left">
-                                <h1><span class="font-weight-light"><span>Make Your Dogs</span></span><span
-                                        class="font-weight-bold"><span>Look Their Best</span></span></h1>
+                                <h1><span class="font-weight-light"><span>'Sen' của bạn</span></span><span
+                                        class="font-weight-bold"><span>Trông đẹp nhất</span></span></h1>
                                 <div class="button-outer"><a class="button button-lg button-primary button-winona"
-                                        href="#">Free
-                                        consultation</a></div>
+                                        href="#">Đặt lịch ngay</a></div>
                             </div>
                             <div class="col-lg-6 position-static">
                                 <div class="floating-image"><img src="<?php echo URL.'/styles/' ?>images/swiper-image-1-960x776.jpg" alt=""
@@ -30,36 +29,14 @@
                     <div class="swiper-slide-caption">
                         <div class="row row-30">
                             <div class="col-lg-6 text-center text-lg-left">
-                                <h1><span class="font-weight-light"><span>Royal Services</span></span><span
-                                        class="font-weight-bold"><span>For Your Dog</span></span></h1>
-                                <div class="button-outer"><a class="button button-lg button-primary button-winona"
-                                        href="#">Free
-                                        consultation</a></div>
+                                <h1><span class="font-weight-light"><span>Dịch vụ tốt nhất</span></span><span
+                                        class="font-weight-bold"><span>Cho 'Sen' của bạn</span></span></h1>
+                                <div class="button-outer">
+                                    <a class="button button-lg button-primary button-winona" href="#">Đặt lịch ngay</a>
+                                </div>
                             </div>
                             <div class="col-lg-6 position-static">
                                 <div class="floating-image"><img src="<?php echo URL.'/styles/' ?>images/swiper-image-2-960x776.jpg" alt=""
-                                        width="960" height="776" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="swiper-slide">
-            <div class="slide-inner">
-                <div class="container">
-                    <div class="swiper-slide-caption">
-                        <div class="row row-30">
-                            <div class="col-lg-6 text-center text-lg-left">
-                                <h1><span class="font-weight-light"><span>Exceptional</span></span><span
-                                        class="font-weight-bold"><span>Dog Grooming</span></span></h1>
-                                <div class="button-outer"><a class="button button-lg button-primary button-winona"
-                                        href="#">Free
-                                        consultation</a></div>
-                            </div>
-                            <div class="col-lg-6 position-static">
-                                <div class="floating-image"><img src="<?php echo URL.'/styles/' ?>images/swiper-image-3-960x776.jpg" alt=""
                                         width="960" height="776" />
                                 </div>
                             </div>

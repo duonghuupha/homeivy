@@ -97,15 +97,14 @@
             </div>
         </div>
         <div class="cell-xl-5 height-fill wow fadeIn">
-            <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14900.235861730733!2d105.913241277354!3d20.99027334022272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135af4019768153%3A0x18321f6237f8a609!2zUGjDsm5nIGtow6FtIHRow7ogeSBJVllWRVQ!5e0!3m2!1svi!2s!4v1693154122582!5m2!1svi!2s" 
-                width="600" 
-                height="450" 
-                style="border:0;" 
-                allowfullscreen="" 
-                loading="lazy" 
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.059315924975!2d105.92912027597622!3d20.990259289098468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135af1421952597%3A0x8a1825c08d0406ab!2zVHJ1bmcgdMOibSB0aMO6IGPGsG5nIElWWVZFVA!5e0!3m2!1svi!2s!4v1725008337628!5m2!1svi!2s" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
         </div>
     </div>
 </section>
