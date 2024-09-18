@@ -57,8 +57,15 @@ class Model {
         return $query->fetchAll(PDO::FETCH_ASSOC);
     }
 
-    function get_dât_block_5(){
-        $query = $this->db->query("SELECT id, ")
+    function get_data_block5(){
+        $query = $this->db->query("SELECT id, title, content, title_button, link_button, data FROM tbl_block_5 WHERE id = 1");
+        return $query->fetchAll();
+    }
+
+    function get_data_block_5($data_array){
+        $query = $this->db->query("SELECT id, title, image FROM tbl_blog WHERE status = 1 AND FIND_IN_SET(cate_id, '$data_array')
+                                    ORDER BY RAND() LIMIT 0, 4");
+        return $query->fetchAll();
     }
 /////////////////////////////////////end cac ham khac ///////////////////////////////////////////////////////////////////////
 }

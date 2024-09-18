@@ -67,7 +67,7 @@ $image_block2 = $this->_Convert->convert_img('other/', $row_block2[0]['image'], 
                 <?php echo $row_block2[0]['content'] ?>
             </div>
             <div class="col-md-10 col-lg-6 wow-outer">
-                <img class="img-responsive wow slideInLeft"src="<?php echo URL_IMAGE.'/other/'.$width_block2.'x'.$height_block_2.'/'.$image_block2 ?>" alt="" />
+                <img class="img-responsive wow slideInLeft" src="<?php echo URL_IMAGE.'/other/'.$width_block2.'x'.$height_block_2.'/'.$image_block2 ?>" alt="" />
             </div>
         </div>
     </div>
@@ -89,7 +89,7 @@ $row_block4 = $this->_Data->get_data_block4();
                 <div class="box-cta-thin">
                     <h4 class="wow-outer">
                         <span class="wow slideInRight">
-                            C<?php echo $row_block4[0]['title'] ?>
+                            <?php echo $row_block4[0]['title'] ?>
                         </span>
                     </h4>
                     <div class="wow-outer button-outer">
@@ -103,32 +103,45 @@ $row_block4 = $this->_Data->get_data_block4();
     </div>
 </section>
 
-
+<?php
+$row_block5 = $this->_Data->get_data_block5();
+$data_block5 = $this->_Data->get_data_block_5($row_block5[0]['data']);
+?>
 <!-- Services-->
 <section class="section-lg text-center">
     <div class="container">
-        <h3 class="wow-outer"><span class="wow slideInUp">Dịch vụ</span></h3>
-        <p class="wow-outer"><span class="wow slideInDown text-width-1">
-            Chúng tôi cung cấp tất cả các dịch vụ Khám - Chẩn đoán - Điều trị - Spa - Grooming cho thú cưng của bạn. Chúng tôi sử dụng các sản phẩm chất lượng nhất
-            phù hợp với nhu cầu.
-        </span></p>
+        <h3 class="wow-outer"><span class="wow slideInUp"><?php echo $row_block5[0]['title'] ?></span></h3>
+        <p class="wow-outer">
+            <span class="wow slideInDown text-width-1">
+                <?php echo $row_block5[0]['content'] ?>
+            </span>
+        </p>
         <div class="row row-30 offset-top-2">
+            <?php
+            foreach($data_block5 as $item_block5){
+                $width_block5 = 270; $height_block5 = 200;
+                $image_block5 = $this->_Convert->convert_img('blog/images/', $item_block5['image'], $width_block5, $height_block5, 2);
+            ?>
             <div class="col-sm-6 col-lg-3 wow-outer">
                 <!-- Thumbnail Light-->
                 <article class="thumbnail-light wow slideInLeft">
-                    <a class="thumbnail-light-media" href="single-service.html">
-                        <img class="thumbnail-light-image" src="<?php echo URL.'/styles/' ?>images/service-thumbnail-1-270x200.jpg" alt="" width="270" height="200" />
+                    <a class="thumbnail-light-media" href="<?php echo URL.'/'.$this->_Convert->vn2latin($item_block5['title'], true).'-service-'.base64_encode($item_block5['id']).'.html' ?>">
+                        <img class="thumbnail-light-image" src="<?php echo URL_IMAGE.'/blog/images/'.$width_block5.'x'.$height_block5.'/'.$image_block5 ?>" alt="" width="270" height="200" />
                     </a>
                     <h5 class="thumbnail-light-title">
-                        <a href="single-service.html">Spa - Gorming</a>
+                        <a href="single-service.html"><?php echo $item_block5['title'] ?></a>
                     </h5>
                 </article>
             </div>
-            
+            <?php
+            }
+            ?>
         </div>
     </div>
     <div class="wow-outer button-outer">
-        <a class="button button-primary-outline button-winona offset-top-2 wow slideInUp" href="services.html">Tất cả dịch vụ của chúng tôi</a>
+        <a class="button button-primary-outline button-winona offset-top-2 wow slideInUp" href="<?php echo $row_block5[0]['link_button'] ?>">
+            <?php echo $row_block5[0]['title_button'] ?>
+        </a>
     </div>
 </section>
 <?php

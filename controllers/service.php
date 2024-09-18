@@ -12,6 +12,11 @@ class Service extends Controller{
 
     function detail(){
         require('layouts/header.php');
+
+        $id = base64_decode($_REQUEST['id']);
+        $jsonObj = $this->model->get_detail($id);
+        $this->view->jsonObj = $jsonObj;
+
         $this->view->render('service/detail');
         require('layouts/footer.php');
     }
