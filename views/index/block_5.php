@@ -13,7 +13,7 @@
                         <img class="thumbnail-light-image" src="<?php echo URL.'/styles/' ?>images/service-thumbnail-1-270x200.jpg" alt="" width="270" height="200" />
                     </a>
                     <h5 class="thumbnail-light-title">
-                        <a href="single-service.html">Tạo kiểu</a>
+                        <a href="single-service.html">Spa - Gorming</a>
                     </h5>
                 </article>
             </div>
@@ -22,7 +22,7 @@
                 <article class="thumbnail-light wow slideInLeft" data-wow-delay=".05s"><a class="thumbnail-light-media"
                         href="single-service.html"><img class="thumbnail-light-image"
                             src="<?php echo URL.'/styles/' ?>images/service-thumbnail-2-270x200.jpg" alt="" width="270" height="200" /></a>
-                    <h5 class="thumbnail-light-title"><a href="single-service.html">Chăm sóc toàn diện</a></h5>
+                    <h5 class="thumbnail-light-title"><a href="single-service.html">Tiêm phòng</a></h5>
                 </article>
             </div>
             <div class="col-sm-6 col-lg-3 wow-outer">
@@ -30,7 +30,7 @@
                 <article class="thumbnail-light wow slideInLeft" data-wow-delay=".1s"><a class="thumbnail-light-media"
                         href="single-service.html"><img class="thumbnail-light-image"
                             src="<?php echo URL.'/styles/' ?>images/service-thumbnail-3-270x200.jpg" alt="" width="270" height="200" /></a>
-                    <h5 class="thumbnail-light-title"><a href="single-service.html">Tắm và vệ sinh 7 bước</a></h5>
+                    <h5 class="thumbnail-light-title"><a href="single-service.html">Khám và điều trị</a></h5>
                 </article>
             </div>
             <div class="col-sm-6 col-lg-3 wow-outer">
@@ -38,7 +38,7 @@
                 <article class="thumbnail-light wow slideInLeft" data-wow-delay=".15s"><a class="thumbnail-light-media"
                         href="single-service.html"><img class="thumbnail-light-image"
                             src="<?php echo URL.'/styles/' ?>images/service-thumbnail-4-270x200.jpg" alt="" width="270" height="200" /></a>
-                    <h5 class="thumbnail-light-title"><a href="single-service.html">Dịch vụ cao cấp</a></h5>
+                    <h5 class="thumbnail-light-title"><a href="single-service.html">Thức ăn - Phụ kiện</a></h5>
                 </article>
             </div>
         </div>

@@ -36,7 +36,30 @@ class Model {
         return $query;
     }
 ///////////////////////////// cac ham khac //////////////////////////////////////////////////////////////////////////////////
-    
+    function get_setting(){
+        $query = $this->db->query("SELECT * FROM tbl_setting WHERE id = 1");
+        return $query->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    function get_data_block1(){
+        $query = $this->db->query("SELECT id, title_1, title_2, image, title_button, link FROM tbl_block_1 WHERE status = 1
+                                    ORDER BY id DESC");
+        return $query->fetchAll();
+    }
+
+    function get_data_block2(){
+        $query = $this->db->query("SELECT * FROM tbl_block_2 WHERE id  = 1");
+        return $query->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    function get_data_block4(){
+        $query = $this->db->query("SELECT * FROM tbl_block_4 WHERE id  = 1");
+        return $query->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    function get_dât_block_5(){
+        $query = $this->db->query("SELECT id, ")
+    }
 /////////////////////////////////////end cac ham khac ///////////////////////////////////////////////////////////////////////
 }
 

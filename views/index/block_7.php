@@ -11,14 +11,13 @@
                             width="96" height="96" />
                     </div>
                     <div class="quote-classic-info">
-                        <cite class="quote-classic-cite">Kelly McMillan</cite>
-                        <p class="quote-classic-caption">Private Entrepreneur</p>
+                        <cite class="quote-classic-cite">Lan Nguyễn</cite>
                     </div>
                 </div>
                 <div class="quote-classic-text">
-                    <p>My dog is 10 this year. She has been going to this grooming salon every day for the past
-                        five years. Thanks to the care and special shampoos used at SpaDog, she is now in very
-                        good health again.</p>
+                    <p>Dịch vụ spa thú cưng tại đây thật tuyệt vời! Chó của tôi trông sạch sẽ và đáng yêu hơn bao giờ hết 
+                    sau mỗi lần tắm và cắt tỉa. Đội ngũ nhân viên rất tận tình và chuyên nghiệp, làm việc với thú cưng rất nhẹ nhàng. 
+                    Tôi hoàn toàn yên tâm khi gửi gắm bé cún của mình ở đây.</p>
                 </div>
             </blockquote>
             <blockquote class="quote-classic">
@@ -27,14 +26,12 @@
                             width="96" height="96" />
                     </div>
                     <div class="quote-classic-info">
-                        <cite class="quote-classic-cite">Harold Barnett</cite>
-                        <p class="quote-classic-caption">Regional Manager</p>
+                        <cite class="quote-classic-cite">Trần Mai</cite>
                     </div>
                 </div>
                 <div class="quote-classic-text">
-                    <p>I bring my Westie “Dougie” to SpaDog for the past 4 years. Their groomers are fantastic,
-                        always do an amazing job and are always so nice and cheerful. Would recommend them to
-                        every dog owner!</p>
+                    <p>Tôi rất ấn tượng với dịch vụ spa ở đây. Chó của tôi không chỉ được tắm rửa sạch sẽ mà còn được 
+                    chăm sóc với các sản phẩm chất lượng cao. Không khí ở đây rất thân thiện và chuyên nghiệp. Dịch vụ thực sự đáng giá với số tiền bỏ ra.</p>
                 </div>
             </blockquote>
             <blockquote class="quote-classic">
@@ -43,14 +40,11 @@
                             width="96" height="96" />
                     </div>
                     <div class="quote-classic-info">
-                        <cite class="quote-classic-cite">Albert Webb</cite>
-                        <p class="quote-classic-caption">CEO at Majestic</p>
+                        <cite class="quote-classic-cite">Nguyễn Văn Hoàng</cite>
                     </div>
                 </div>
                 <div class="quote-classic-text">
-                    <p>My Yorkie ‘Toby’ has been coming to this grooming studio for over 8 years and always
-                        looks beautiful afterward. Having tried other grooming salons before, I wouldn’t bring
-                        him anywhere else.</p>
+                    <p>Dịch vụ tiêm phòng ở đây thật tuyệt vời! Nhân viên rất chu đáo và giải thích rõ ràng về các loại vắc-xin cần thiết cho chó của tôi. Tôi cảm thấy yên tâm hơn vì biết thú cưng của mình được bảo vệ tốt nhất.</p>
                 </div>
             </blockquote>
             <blockquote class="quote-classic">
@@ -59,14 +53,11 @@
                             width="96" height="96" />
                     </div>
                     <div class="quote-classic-info">
-                        <cite class="quote-classic-cite">Samantha Lee</cite>
-                        <p class="quote-classic-caption">Sales Manager at Hillplan</p>
+                        <cite class="quote-classic-cite">Trần Tùng</cite>
                     </div>
                 </div>
                 <div class="quote-classic-text">
-                    <p>I really feel comfortable leaving my Max at SpaDog. He always comes homes happy and
-                        relaxed and the groomers there are warm, friendly and welcoming. They always do what you
-                        ask.</p>
+                    <p>Dịch vụ tiêm phòng ở đây rất đáng tin cậy. Quy trình tiêm chủng nhanh chóng và an toàn, đội ngũ nhân viên luôn sẵn sàng trả lời mọi câu hỏi của tôi. Tôi cảm thấy yên tâm khi biết rằng thú cưng của mình được bảo vệ khỏi các bệnh truyền nhiễm nguy hiểm.</p>
                 </div>
             </blockquote>
             <blockquote class="quote-classic">
@@ -75,30 +66,11 @@
                             width="96" height="96" />
                     </div>
                     <div class="quote-classic-info">
-                        <cite class="quote-classic-cite">Bill Warner</cite>
-                        <p class="quote-classic-caption">Private Entrepreneur</p>
+                        <cite class="quote-classic-cite">Tuấn Lê</cite>
                     </div>
                 </div>
                 <div class="quote-classic-text">
-                    <p>We are in the area for a few months and my 2 furry boys needed grooming. SpaDog team was
-                        very friendly and the boys liked it there. They did not have to spend a lot of time
-                        there like so many places.</p>
-                </div>
-            </blockquote>
-            <blockquote class="quote-classic">
-                <div class="quote-classic-meta">
-                    <div class="quote-classic-avatar"><img src="<?php echo URL.'/styles/' ?>images/testimonials-person-6-96x96.jpg" alt=""
-                            width="96" height="96" />
-                    </div>
-                    <div class="quote-classic-info">
-                        <cite class="quote-classic-cite">Adam Smith</cite>
-                        <p class="quote-classic-caption">CEO at Majestic</p>
-                    </div>
-                </div>
-                <div class="quote-classic-text">
-                    <p>Thank you for making my dog look so fantastic! He was a smelly matted mess and now he
-                        looks so handsome! I will surely recommend your grooming salon to my friends and
-                        colleagues.</p>
+                    <p>Dịch vụ khám chữa bệnh tại IvyVet thực sự đáng tin cậy. Đội ngũ bác sĩ rất chu đáo và nhiệt tình, đã giải thích rõ ràng về bệnh tình của mèo nhà tôi và các bước điều trị. Tôi đánh giá cao sự tận tâm và chuyên nghiệp của họ.</p>
                 </div>
             </blockquote>
         </div>

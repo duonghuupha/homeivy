@@ -23,9 +23,9 @@
                             </div>
                             <div class="box-minimal-main wow-outer">
                                 <h4 class="box-minimal-title wow slideInDown" data-wow-delay=".1s">Tư vấn miễn phí</h4>
-                                <p class="wow fadeInUpSmall" data-wow-delay=".1s">Our acquaintance with a client
-                                    always begins with a free consultation to find out possible solutions to
-                                    their problems.</p>
+                                <p class="wow fadeInUpSmall" data-wow-delay=".1s">Chúng tôi cung cấp dịch vụ tư vấn miễn 
+                                phí khi thú cưng đi khám, giúp bạn hiểu rõ hơn về tình trạng sức khỏe của thú cưng 
+                                và các phương án điều trị.</p>
                             </div>
                         </article>
                     </div>
@@ -35,11 +35,10 @@
                             <div class="box-minimal-icon linearicons-scissors wow fadeIn" data-wow-delay=".2s">
                             </div>
                             <div class="box-minimal-main wow-outer">
-                                <h4 class="box-minimal-title wow slideInDown" data-wow-delay=".2s">100%
-                                    Guaranteed</h4>
-                                <p class="wow fadeInUpSmall" data-wow-delay=".2s">All results that you get from
-                                    us are 100% guaranteed to bring you to a whole new level of profitability
-                                    and financial success.</p>
+                                <h4 class="box-minimal-title wow slideInDown" data-wow-delay=".2s">Spa - Gorming</h4>
+                                <p class="wow fadeInUpSmall" data-wow-delay=".2s">Dịch vụ Spa thú cưng cam kết 100% chất 
+                                lượng bằng cách sử dụng sản phẩm và thiết bị cao cấp, đội ngũ kỹ thuật viên chuyên 
+                                nghiệp, và quy trình chăm sóc tận tâm.</p>
                             </div>
                         </article>
                     </div>
@@ -49,11 +48,10 @@
                             <div class="box-minimal-icon linearicons-trophy2 wow fadeIn" data-wow-delay=".2s">
                             </div>
                             <div class="box-minimal-main wow-outer">
-                                <h4 class="box-minimal-title wow slideInDown" data-wow-delay=".2s">100%
-                                    Guaranteed</h4>
-                                <p class="wow fadeInUpSmall" data-wow-delay=".2s">All results that you get from
-                                    us are 100% guaranteed to bring you to a whole new level of profitability
-                                    and financial success.</p>
+                                <h4 class="box-minimal-title wow slideInDown" data-wow-delay=".2s">Chất lượng dịch vụ</h4>
+                                <p class="wow fadeInUpSmall" data-wow-delay=".2s">Chúng tôi cam kết cung cấp sự chăm sóc 
+                                tận tâm và chuyên nghiệp nhất, đảm bảo sức khỏe, sự thoải mái và hạnh phúc 
+                                tối đa cho thú cưng của bạn.</p>
                             </div>
                         </article>
                     </div>

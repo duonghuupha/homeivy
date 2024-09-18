@@ -1,13 +1,16 @@
+<?php  
+$setting = $this->_Data->get_setting();
+?>
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="vi">
 
 <head>
-    <title>Trung tâm thú cưng IVYVET</title>
+    <title><?php echo $setting[0]['title'] ?></title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width height=device-height initial-scale=1.0 maximum-scale=1.0 user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <link rel="icon" href="<?php echo URL.'/styles/' ?>images/Logo_1.png" type="image/x-icon">
+    <link rel="icon" href="<?php echo URL_IMAGE ?>/other/<?php echo $setting[0]['icon'] ?>" type="image/x-icon">
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Work+Sans:300,700,800%7COswald:300,400,500">
     <link rel="stylesheet" href="<?php echo URL.'/styles/' ?>css/style.css">
@@ -15,7 +18,7 @@
 <body>
     <div class="preloader">
         <div class="preloader-logo">
-            <img src="<?php echo URL.'/styles/' ?>images/Logo.png" alt="" width="167" height="44" />
+            <img src="<?php echo URL_IMAGE ?>/other/<?php echo $setting[0]['logo'] ?>" alt="" width="167" height="44" />
         </div>
         <div class="preloader-body">
             <div id="loadingProgressG">
@@ -54,7 +57,7 @@
                                     <span></span>
                                 </button>
                                 <a class="rd-navbar-brand" href="/">
-                                    <img src="<?php echo URL.'/styles/' ?>images/Logo.png" alt="" width="167" height="44" />
+                                    <img src="<?php echo URL_IMAGE ?>/other/<?php echo $setting[0]['logo'] ?>" alt="" width="167" height="44" />
                                 </a>
                             </div>
                             <div class="rd-navbar-collapse">
@@ -68,8 +71,8 @@
                                         </div>
                                         <div class="unit-body">
                                             <ul class="list-0">
-                                                <li><a class="link-default" href="tel:#">089 9315 115</a></li>
-                                                <li><a class="link-default" href="tel:#">034 9697 096</a></li>
+                                                <li><a class="link-default" href="tel:<?php echo $setting[0]['hotline_1'] ?>"><?php echo $setting[0]['hotline_1'] ?></a></li>
+                                                <li><a class="link-default" href="tel:<?php echo $setting[0]['hotline_2'] ?>"><?php echo $setting[0]['hotline_2'] ?></a></li>
                                             </ul>
                                         </div>
                                     </article>
@@ -78,14 +81,12 @@
                                             <span class="icon icon-md icon-modern mdi mdi-map-marker"></span>
                                         </div>
                                         <div class="unit-body">
-                                            <a class="link-default text-nowrap" href="#">
-                                                Số 41, Đào Xuyên, Đa Tốn 
-                                                <br> 
-                                                Gia Lâm, Hà Nội
+                                            <a class="link-default text-nowrap" href="javascript:void(0)">
+                                                <?php echo $setting[0]['address'] ?>
                                             </a>
                                         </div>
                                     </article>
-                                    <a class="button button-primary-outline button-winona" href="#">Yêu cầu cuộc gọi</a>
+                                    <a class="button button-primary-outline button-winona" href="tel:<?php echo $setting[0]['hotline_1'] ?>">Yêu cầu cuộc gọi</a>
                                 </div>
                             </div>
                         </div>
