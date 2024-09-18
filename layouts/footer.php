@@ -123,7 +123,7 @@
                             <span>Mọi quyền được bảo lưu.</span>
                             <span>&nbsp;</span>
                             <br class="d-sm-none" />
-                            <a href="privacy-policy.html">Chính sách bảo mật</a>
+                            <a href="javascript:void(0)">Chính sách bảo mật</a>
                         </p>
                     </div>
                 </div>

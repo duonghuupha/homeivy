@@ -13,4 +13,7 @@ RewriteRule ^(.*)-post-(.*).html$ index.php?url=blog/detail&id=$2 [QSA,L]
 RewriteRule service.html$ index.php?url=service [QSA,L]
 RewriteRule ^(.*)-service-(.*).html$ index.php?url=service/detail&id=$2 [QSA,L]
 
+RewriteRule orders.html$ index.php?url=order [QSA,L]
+RewriteRule prices.html$ index.php?url=price [QSA,L]
+
 php_value display_errors on

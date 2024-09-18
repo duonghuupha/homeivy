@@ -41,6 +41,16 @@ class Model {
         return $query->fetchAll(PDO::FETCH_ASSOC);
     }
 
+    function get_menu_parent(){
+        $query = $this->db->query("SELECT id, title, type, link, taget FROM tbl_menu WHERE status = 1 AND parent_id = 0 AND position = 1 ORDER BY order_menu ASC");
+        return $query->fetchAll();
+    }
+
+    function get_menu_sub($id){
+        $query = $this->db->query("SELECT id, title, type, link, taget FROM tbl_menu WHERE status = 1 AND parent_id = $id AND position = 1 ORDER BY order_menu ASC");
+        return $query->fetchAll();
+    }
+
     function get_data_block1(){
         $query = $this->db->query("SELECT id, title_1, title_2, image, title_button, link FROM tbl_block_1 WHERE status = 1
                                     ORDER BY id DESC");

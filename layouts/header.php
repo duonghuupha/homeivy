@@ -113,30 +113,21 @@ $setting = $this->_Data->get_setting();
                                     </form>
                                 </div>
                                 <ul class="rd-navbar-nav">
-                                    <li class="rd-nav-item active">
-                                        <a class="rd-nav-link" href="#">Trang chủ</a>
-                                    </li>
-                                    <li class="rd-nav-item">
-                                        <a class="rd-nav-link" href="#">Về chúng tôi</a>
-                                    </li>
-                                    <li class="rd-nav-item"><a class="rd-nav-link" href="#">Dịch vụ</a>
-                                        <ul class="rd-menu rd-navbar-dropdown">
-                                            <li class="rd-dropdown-item">
-                                                <a class="rd-dropdown-link"  href="#">Khám - Điều trị</a>
-                                                <a class="rd-dropdown-link"  href="#">Tiêm phòng bệnh</a>
-                                                <a class="rd-dropdown-link"  href="#">Spa Gorming</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="rd-nav-item">
-                                        <a class="rd-nav-link" href="#">Shop</a>
-                                    </li>
-                                    <li class="rd-nav-item">
-                                        <a class="rd-nav-link" href="#">Tin tức</a>
-                                    </li>
-                                    <li class="rd-nav-item">
-                                        <a class="rd-nav-link" href="contact.html">Liên hệ</a>
-                                    </li>
+                                    <?php
+                                    $menu_p  = $this->_Data->get_menu_parent();
+                                    foreach($menu_p as $row_m_p){
+                                        $menu_s = $this->_Data->get_menu_sub($row_m_p['id']);
+                                        $link_p = $this->_Convert->return_link_menu($row_m_p['id'], $row_m_p['title'], $row_m_p['type'], $row_m_p['link']);
+                                        echo '<li class="rd-nav-item"><a class="rd-nav-link" href="'.$link_p.'">'.$row_m_p['title'].'</a>';
+                                        echo (count($menu_s) > 0) ? '<ul class="rd-menu rd-navbar-dropdown"><li class="rd-dropdown-item">' : '';
+                                        foreach($menu_s as $row_m_s){
+                                            $link_s = $this->_Convert->return_link_menu($row_m_s['id'], $row_m_s['title'], $row_m_s['type'], $row_m_s['link']);
+                                            echo '<a class="rd-dropdown-link" href="'.$link_s.'">'.$row_m_s['title'].'</a>';
+                                        }
+                                        echo (count($menu_s) > 0) ? '</li></ul>' : '';
+                                        echo '</li>';
+                                    }
+                                    ?>
                                 </ul>
                             </div>
                         </div>

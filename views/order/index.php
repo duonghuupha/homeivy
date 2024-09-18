@@ -7,7 +7,7 @@ $item = $this->_Data->get_setting();
         <div class="breadcrumbs-custom-container container">
             <div class="breadcrumbs-custom-main">
                 <h6 class="breadcrumbs-custom-subtitle title-decorated">Liên hệ</h6>
-                <h1 class="breadcrumbs-custom-title">Liên hệ</h1>
+                <h1 class="breadcrumbs-custom-title">Đặt lịch hẹn</h1>
             </div>
         </div>
     </div>
@@ -49,7 +49,7 @@ $item = $this->_Data->get_setting();
             <div class="row">
                 <div class="col-lg-9 cell-inner">
                     <div class="section-lg">
-                        <h3 class="wow-outer"><span class="wow slideInDown">Liên hệ</span></h3>
+                        <h3 class="wow-outer"><span class="wow slideInDown">Thông tin</span></h3>
                         <!-- RD Mailform-->
                         <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post">
                             <div class="row row-10">
@@ -62,9 +62,9 @@ $item = $this->_Data->get_setting();
                                 </div>
                                 <div class="col-md-6 wow-outer">
                                     <div class="form-wrap wow fadeSlideInUp">
-                                        <label class="form-label-outside" for="contact-email">E-mail</label>
-                                        <input class="form-input" id="contact-email" type="email" name="email"
-                                            data-constraints="@Required @Email">
+                                        <label class="form-label-outside" for="contact-email">Tên vật nuôi</label>
+                                        <input class="form-input" id="contact-email" type="text" name="email"
+                                            data-constraints="@Required">
                                     </div>
                                 </div>
                                 <div class="col-md-6 wow-outer">
@@ -74,23 +74,17 @@ $item = $this->_Data->get_setting();
                                             data-constraints="@Required @PhoneNumber">
                                     </div>
                                 </div>
-                                <div class="col-12 wow-outer">
+                                <div class="col-md-12 wow-outer">
                                     <div class="form-wrap wow fadeSlideInUp">
-                                        <label class="form-label-outside" for="contact-message">Nội dung liên hệ</label>
-                                        <textarea class="form-input" id="contact-message" name="message"
-                                            data-constraints="@Required"></textarea>
+                                        <label class="form-label-outside" for="contact-last-name">Dịch vụ</label>
+                                        <input class="form-input" id="contact-last-name" type="text" name="name"
+                                            data-constraints="@Required">
                                     </div>
                                 </div>
                             </div>
                             <div class="group group-middle">
                                 <div class="wow-outer">
-                                    <button class="button button-primary button-winona wow slideInRight" type="button">Gửi liên hệ</button>
-                                </div>
-                                <p>hoặc sử dụng</p>
-                                <div class="wow-outer">
-                                    <a class="button button-primary-outline button-icon button-icon-left button-winona wow slideInLeft" href="javascript:void(0)">
-                                        <span class="icon text-primary mdi mdi-facebook-messenger"></span>Messenger
-                                    </a>
+                                    <button class="button button-primary button-winona wow slideInRight" type="button">Gửi thông tin</button>
                                 </div>
                             </div>
                         </form>

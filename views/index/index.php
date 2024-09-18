@@ -129,7 +129,7 @@ $data_block5 = $this->_Data->get_data_block_5($row_block5[0]['data']);
                         <img class="thumbnail-light-image" src="<?php echo URL_IMAGE.'/blog/images/'.$width_block5.'x'.$height_block5.'/'.$image_block5 ?>" alt="" width="270" height="200" />
                     </a>
                     <h5 class="thumbnail-light-title">
-                        <a href="single-service.html"><?php echo $item_block5['title'] ?></a>
+                        <a href="<?php echo URL.'/'.$this->_Convert->vn2latin($item_block5['title'], true).'-service-'.base64_encode($item_block5['id']).'.html' ?>"><?php echo $item_block5['title'] ?></a>
                     </h5>
                 </article>
             </div>

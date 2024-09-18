@@ -126,8 +126,12 @@ class Convert{
             $str_link = URL.'/'.$this->vn2latin($title, true).'-blogs-'.base64_encode($id).'.html';
         }elseif($type_menu == 3){ // lien he
             $str_link = URL.'/contact.html';
-        }else{
+        }elseif($type_menu == 4){ // trang bang gia
+            $str_link = URL.'/prices.html';
+        }elseif($type_menu == 5){ // lien ket ngoai
             $str_link = $link;
+        }else{ // trang datj lich
+            $str_link = URL.'/orders.html';
         }
         return $str_link;
     }
