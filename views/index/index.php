@@ -30,7 +30,7 @@ $jsonObj_block1 = $this->_Data->get_data_block1();
                             </div>
                             <div class="col-lg-6 position-static">
                                 <div class="floating-image">
-                                    <img src="<?php echo URL_IMAGE.'/other/'.$row_block1['image'] ?>" alt="" width="960" height="776" />
+                                    <img src="<?php echo URL_IMAGE.'/other/'.$row_block1['image'] ?>" alt="" width="760" height="614" />
                                 </div>
                             </div>
                         </div>
@@ -72,9 +72,42 @@ $image_block2 = $this->_Convert->convert_img('other/', $row_block2[0]['image'], 
         </div>
     </div>
 </section>
-<?php
-include('block_3.php');
-?>
+
+<!-- Small Features-->
+<section class="section section-md bg-gray-light">
+    <div class="container">
+        <div class="row row-40 align-items-center">
+            <div class="col-xl-8">
+                <div class="row row-xl-60">
+                    <?php
+                    foreach($this->_Data->get_data_block3(0, 4) as $row_block3){
+                    ?>
+                    <div class="col-sm-6 wow-outer">
+                        <!-- Box Minimal-->
+                        <article class="box-minimal">
+                            <div class="box-minimal-icon <?php echo $row_block3['image_icon'] ?> wow fadeIn"></div>
+                            <div class="box-minimal-main wow-outer">
+                                <h4 class="box-minimal-title wow slideInDown"><?php echo $row_block3['title'] ?></h4>
+                                <p class="wow fadeInUpSmall"><?php echo $row_block3['content'] ?></p>
+                            </div>
+                        </article>
+                    </div>
+                    <?php
+                    }
+                    ?>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="offset-negative-70">
+                    <?php
+                    $row_block3_img = $this->_Data->get_data_block3(4, 1);
+                    ?>
+                    <img src="<?php echo URL_IMAGE.'/other/'.$row_block3_img[0]['image_icon'] ?>" alt="" width="386" height="503" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php
 $row_block4 = $this->_Data->get_data_block4();
@@ -144,8 +177,57 @@ $data_block5 = $this->_Data->get_data_block_5($row_block5[0]['data']);
         </a>
     </div>
 </section>
+
 <?php
-include('block_6.php');
+$json_block6 = $this->_Data->get_data_block_6_price();
+?>
+<!-- Pricing-->
+<section class="section section-lg bg-gray-100 section-decorated-7">
+    <div class="decor-1"><img src="<?php echo URL.'/styles/' ?>images/bubbles-171x230.png" alt="" width="171" height="230" />
+    </div>
+    <div class="container">
+        <h3 class="wow-outer text-center"><span class="wow slideInDown">Bảng giá</span></h3>
+        <div class="row row-30">
+            <div class="col-sm-6 col-lg-4 wow-outer">
+                <!-- Pricing Minimal-->
+                <article class="pricing-minimal wow slideInRight">
+                    <h5 class="pricing-minimal-title"><a href="single-service.html">Basic Package</a></h5>
+                    <p class="pricing-minimal-price"><span class="pricing-minimal-price-currency">$</span>49.00
+                    </p>
+                    <div class="pricing-minimal-divider"></div>
+                    <p>Our basic package is an important part of dog grooming as it offers affordable bathing
+                        and brushing for dogs of any breed.</p><a class="button button-primary button-winona"
+                        href="single-service.html">Order now</a>
+                </article>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow-outer">
+                <!-- Pricing Minimal-->
+                <article class="pricing-minimal wow slideInRight" data-wow-delay=".05s">
+                    <h5 class="pricing-minimal-title"><a href="single-service.html">Advanced Package</a></h5>
+                    <p class="pricing-minimal-price"><span class="pricing-minimal-price-currency">$</span>67.00
+                    </p>
+                    <div class="pricing-minimal-divider"></div>
+                    <p>Our upgraded package is designed for dogs who need a little extra TLC by keeping skin
+                        moisturized, using a specialized shampoo & conditioner.</p><a
+                        class="button button-primary button-winona" href="single-service.html">Order now</a>
+                </article>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow-outer">
+                <!-- Pricing Minimal-->
+                <article class="pricing-minimal wow slideInRight" data-wow-delay=".1s">
+                    <h5 class="pricing-minimal-title"><a href="single-service.html">Pro Package</a></h5>
+                    <p class="pricing-minimal-price"><span class="pricing-minimal-price-currency">$</span>86.00
+                    </p>
+                    <div class="pricing-minimal-divider"></div>
+                    <p>This ultimate spa package is featured for the spoiled pup who needs the works and wants
+                        to enjoy a day of relaxation and beauty.</p><a class="button button-primary button-winona"
+                        href="single-service.html">Order now</a>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+<?php
 include('block_7.php');
 include('block_8.php');
 include('block_9.php');
