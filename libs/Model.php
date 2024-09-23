@@ -83,8 +83,13 @@ class Model {
         return $query->fetchAll();
     }
 
-    function get_data_block_6_price(){
-        $query = $this->db->query("SELECT id, title, content, price FROM tbl_price WHERE status = 1 ORDER BY RAND() LIMIT 0, 3");
+    function get_data_block_6(){
+        $query = $this->db->query("SELECT * FROM tbl_block_6 WHERE id = 1");
+        return $query->fetchAll();
+    }
+
+    function get_data_block_6_price($data_link){
+        $query = $this->db->query("SELECT * FROM tbl_price WHERE status = 1 AND FIND_IN_SET(id, '$data_link') ORDER BY RAND()");
         return $query->fetchAll();
     }
 /////////////////////////////////////end cac ham khac ///////////////////////////////////////////////////////////////////////

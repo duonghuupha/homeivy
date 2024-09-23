@@ -28261,7 +28261,7 @@ html:not(.tablet):not(.mobile) .thumbnail-indigo:hover .thumbnail-indigo-caption
 }
 
 .pricing-minimal-price-currency {
-    font-size: .65em;
+    font-size: 10px;
     vertical-align: top;
 }
 
