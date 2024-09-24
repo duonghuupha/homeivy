@@ -215,8 +215,40 @@ $json_block6 = $this->_Data->get_data_block_6();
         </div>
     </div>
 </section>
+
 <?php
-include('block_7.php');
+$json_block7 = $this->_Data->get_data_block7();
+?>
+<!-- Testimonials-->
+<section class="section section-lg text-center">
+    <div class="container">
+        <h3 class="wow-outer"><span class="wow slideInDown"><?php echo $json_block7[0]['title'] ?></span></h3>
+        <!-- Owl Carousel-->
+        <div class="owl-carousel wow fadeIn" data-items="1" data-md-items="2" data-lg-items="3" data-dots="true"
+            data-nav="false" data-loop="true" data-margin="30" data-stage-padding="0" data-mouse-drag="false">
+            <?php
+            foreach($this->_Data->get_data_block_7($json_block7[0]['data']) as $row_block7){
+            ?>
+            <blockquote class="quote-classic">
+                <div class="quote-classic-meta">
+                    <div class="quote-classic-avatar"><img src="<?php echo URL.'/styles/' ?>images/Logo_1.png" alt=""
+                            width="96" height="96" />
+                    </div>
+                    <div class="quote-classic-info">
+                        <cite class="quote-classic-cite"><?php echo $row_block7['title'] ?></cite>
+                    </div>
+                </div>
+                <div class="quote-classic-text" title="<?php echo $row_block7['content'] ?>">
+                    <p><?php echo $this->_Convert->cut($row_block7['content'], 250) ?></p>
+                </div>
+            </blockquote>
+            <?php
+            }
+            ?>
+        </div>
+    </div>
+</section>
+<?php
 include('block_8.php');
 include('block_9.php');
 ?>
