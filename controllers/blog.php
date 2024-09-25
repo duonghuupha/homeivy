@@ -12,6 +12,11 @@ class Blog extends Controller{
 
     function detail(){
         require('layouts/header.php');
+
+        $id = base64_decode($_REQUEST['id']);
+        $jsonObj = $this->model->get_detail($id);
+        $this->view->jsonObj = $jsonObj;
+
         $this->view->render('blog/detail');
         require('layouts/footer.php');
     }

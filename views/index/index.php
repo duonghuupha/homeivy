@@ -248,7 +248,79 @@ $json_block7 = $this->_Data->get_data_block7();
         </div>
     </div>
 </section>
+
 <?php
-include('block_8.php');
-include('block_9.php');
+$json_block8 = $this->_Data->get_data_block8();
 ?>
+<!-- Centered CTA-->
+<section class="section section-1 bg-primary-darker text-center section-decorated-3">
+    <div class="decor-1"><img src="<?php echo URL.'/styles/' ?>images/bubbles-187x131.png" alt="" width="187" height="131" /></div>
+    <div class="decor-2"><img src="<?php echo URL.'/styles/' ?>images/bubbles-295x474.png" alt="" width="295" height="474" /></div>
+    <div class="decor-3"><img src="<?php echo URL_IMAGE.'/other/'.$json_block8[0]['image'] ?>" alt="Trung tâm thú cưng IVYVET" width="359" height="546" /></div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-sm-10 col-lg-7 col-xl-6">
+                <h3 class="wow-outer">
+                    <span class="wow slideInDown">
+                     <?php echo $json_block8[0]['title'] ?>
+                    </span>
+                </h3>
+                <p class="wow-outer offset-top-3">
+                    <span class="wow slideInDown" data-wow-delay=".05s">
+                        <?php echo $json_block8[0]['content'] ?>
+                    </span>
+                </p>
+                <div class="wow-outer button-outer">
+                    <a class="button button-primary button-winona wow slideInDown" href="<?php echo $json_block8[0]['link_button'] ?>" data-wow-delay=".1s">
+                        <?php echo $json_block8[0]['title_button'] ?>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<?php
+$json_block9 = $this->_Data->get_data_block9();
+?>
+<!-- Latest Blog Posts-->
+<section class="section section-lg text-center section-decorated-4">
+    <div class="decor-1"><img src="<?php echo URL.'/styles/' ?>images/bubbles-187x131.png" alt="" width="187" height="131" /></div>
+    <div class="container">
+        <h3 class="wow-outer text-center">
+            <span class="wow slideInDown"><?php echo $json_block9[0]['title'] ?></span>
+        </h3>
+        <div class="row row-50">
+            <?php
+            foreach($this->_Data->get_data_block_9($json_block9[0]['data']) as $row_block9){
+                $width_block9 = 570; $height_block9 = 353;
+                $image_block9 = $this->_Convert->convert_img('blog/images', $row_block9['image'], $width_block9, $height_block9, 2);
+            ?>
+            <div class="col-md-6 wow-outer">
+                <!-- Post Modern-->
+                <article class="post-modern wow slideInLeft">
+                    <a class="post-modern-media" href="single-blog-post.html">
+                        <img src="<?php echo URL_IMAGE.'/blog/images/'.$width_block9.'x'.$height_block9.'/'.$image_block9 ?>" alt="" width="570" height="353" />
+                    </a>
+                    <h4 class="post-modern-title">
+                        <a href="single-blog-post.html" title="<?php echo $row_block9['title'] ?>">
+                            <?php echo $this->_Convert->cut($row_block9['title'], 55) ?>
+                        </a>
+                    </h4>
+                    <ul class="post-modern-meta">
+                        <li>
+                            <time datetime="<?php echo date("Y", strtotime($row_block9['create_at'])) ?>">
+                                <?php echo date("M j, Y", strtotime($row['create_at'])).' lúc '.date("g:i a", strtotime($row_block9['create_at'])) ?>
+                            </time>
+                        </li>
+                        <li><a class="button-winona" href="javascript:void(0)"><?php echo $row_block9['cate_title'] ?></a></li>
+                    </ul>
+                    <p><?php echo $this->_Convert->cut($row_block9['info'], 200) ?></p>
+                </article>
+            </div>
+            <?php
+            }
+            ?>
+        </div>
+    </div>
+</section>

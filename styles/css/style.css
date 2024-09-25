@@ -41119,3 +41119,8 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
         font-size: 18px;
     }
 }
+
+.detail_post img{
+    width: 100% !important;
+    height:100% !important
+}

@@ -102,6 +102,23 @@ class Model {
         $query = $this->db->query("SELECT * FROM tbl_testi WHERE status = 1 AND FIND_IN_SET(id, '$data_link') ORDER BY RAND() LIMIT 0, 3");
         return $query->fetchAll();
     }
+
+    function get_data_block8(){
+        $query = $this->db->query("SELECT * FROM tbl_block_8 WHERE id = 1");
+        return $query->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    function get_data_block9(){
+        $query = $this->db->query("SELECT * FROM tbl_block_9 WHERE id = 1");
+        return $query->fetchAll();
+    }
+
+    function get_data_block_9($data_link){
+        $query = $this->db->query("SELECT id, title, info, create_at, image, (SELECT tbl_category.title FROM tbl_category
+                                    WHERE tbl_category.id = cate_id) AS cate_title FROM tbl_blog WHERE status = 1 AND
+                                    FIND_IN_SET(cate_id, '$data_link') ORDER BY id DESC LIMIT 0,  1");
+        return $query->fetchAll();
+    }
 /////////////////////////////////////end cac ham khac ///////////////////////////////////////////////////////////////////////
 }
 
