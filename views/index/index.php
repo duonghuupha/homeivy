@@ -159,7 +159,7 @@ $data_block5 = $this->_Data->get_data_block_5($row_block5[0]['data']);
                 <!-- Thumbnail Light-->
                 <article class="thumbnail-light wow slideInLeft">
                     <a class="thumbnail-light-media" href="<?php echo URL.'/'.$this->_Convert->vn2latin($item_block5['title'], true).'-service-'.base64_encode($item_block5['id']).'.html' ?>">
-                        <img class="thumbnail-light-image" src="<?php echo URL_IMAGE.'/blog/images/'.$width_block5.'x'.$height_block5.'/'.$image_block5 ?>" alt="" width="270" height="200" />
+                        <img class="thumbnail-light-image" src="<?php echo URL_IMAGE.'/blog/images/'.$item_block5['image'] ?>" alt="" width="270" height="200" />
                     </a>
                     <h5 class="thumbnail-light-title">
                         <a href="<?php echo URL.'/'.$this->_Convert->vn2latin($item_block5['title'], true).'-service-'.base64_encode($item_block5['id']).'.html' ?>"><?php echo $item_block5['title'] ?></a>
@@ -299,11 +299,11 @@ $json_block9 = $this->_Data->get_data_block9();
             <div class="col-md-6 wow-outer">
                 <!-- Post Modern-->
                 <article class="post-modern wow slideInLeft">
-                    <a class="post-modern-media" href="single-blog-post.html">
+                    <a class="post-modern-media" href="<?php echo URL.'/'.$this->_Convert->vn2latin($row_block9['title'], true).'-post-'.base64_encode($row_block9['id']).'html' ?>">
                         <img src="<?php echo URL_IMAGE.'/blog/images/'.$width_block9.'x'.$height_block9.'/'.$image_block9 ?>" alt="" width="570" height="353" />
                     </a>
                     <h4 class="post-modern-title">
-                        <a href="single-blog-post.html" title="<?php echo $row_block9['title'] ?>">
+                        <a href="<?php echo URL.'/'.$this->_Convert->vn2latin($row_block9['title'], true).'-post-'.base64_encode($row_block9['id']).'html' ?>" title="<?php echo $row_block9['title'] ?>">
                             <?php echo $this->_Convert->cut($row_block9['title'], 55) ?>
                         </a>
                     </h4>

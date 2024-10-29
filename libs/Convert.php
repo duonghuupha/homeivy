@@ -41,7 +41,7 @@ class Convert{
             "Ò","Ó","Ọ","Ỏ","Õ","Ô","Ồ","Ố","Ộ","Ổ","Ỗ","Ơ","Ờ","Ớ","Ợ","Ở","Ỡ",
             "Ù","Ú","Ụ","Ủ","Ũ","Ư","Ừ","Ứ","Ự","Ử","Ữ",
             "Ỳ","Ý","Ỵ","Ỷ","Ỹ",
-            "Đ"," ","$","%","?","&",'"',',',':',"/",'-');
+            "Đ"," ","$","%","?","&",'"',',',':',"/","'");
 
         /*Mảng chứa tất cả ký tự không dấu tương ứng với mảng $marTViet bên trên*/
         $marKoDau=array("a","a","a","a","a","a","a","a","a","a","a",
@@ -60,7 +60,7 @@ class Convert{
             "O","O","O","O","O","O","O","O","O","O","O","O","O","O","O","O","O",
             "U","U","U","U","U","U","U","U","U","U","U",
             "Y","Y","Y","Y","Y",
-            "D","-","-","-","-","-","-","-",'',"",'');
+            "D","-","-","-","-","-","-","-",'',"",'-');
 
         if ($tolower) {
             return strtolower(str_replace($marTViet,$marKoDau,$cs));
@@ -77,26 +77,26 @@ class Convert{
         $class = ( $currentpage == 1 ) ? "active" : "";
 
         if ( $start > 1 ) {
-            $html .= '<li class="page-item"><a class="page-link" href="?page=1">1</a></li>';
-            $html .= '<li class="page-item"><a class="page-link">...</a></li>';
+            $html .= '<div class="page-item"><a class="page-link button-winona" href="?page=1">1</a></div>';
+            $html .= '<div class="page-item"><a class="page-link button-winona">...</a></div>';
         }
         for ( $i = $start ; $i <= $end; $i++ ) {
             //$class = ( $currentpage == $i ) ? "active" : "";
             if($currentpage == $i){
-                $html .= '<li class="page-item active">';
-                $html .= '<span class="page-link">' . $i . '</span>';
-                $html .= '</li>';
+                $html .= '<div class="page-item active">';
+                $html .= '<a class="page-link button-winona">' . $i . '</a>';
+                $html .= '</div>';
             }else{
-                $html .= '<li class="page-item">';
-                $html .= '<a class="page-link" href="?page='.$i.'">' . $i . '</a>';
-                $html .= '</li>';
+                $html .= '<div class="page-item">';
+                $html .= '<a class="page-link button-winona" href="?page='.$i.'">' . $i . '</a>';
+                $html .= '</div>';
             }
         }
         if ( $end < $last ) {
-            $html .= '<li class="page-item"><a class="page-link">...</a></li>';
-            $html .= '<li class="page-item">';
-            $html .= '<a class="page-link" href="?page='.$last.'">' . $last . '</a>';
-            $html .= '</li>';
+            $html .= '<div class="page-item"><a class="page-link button-winona">...</a></div>';
+            $html .= '<div class="page-item">';
+            $html .= '<a class="page-link button-winona" href="?page='.$last.'">' . $last . '</a>';
+            $html .= '</div>';
         }
         return $html;
     }

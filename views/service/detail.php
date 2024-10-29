@@ -36,7 +36,7 @@
                 $width= 426; $height = 555;
                 $image = $this->_Convert->convert_img('blog/images/', $this->jsonObj[0]['image'], $width, $height, 2);
                 ?>
-                <img src="<?php echo URL_IMAGE.'/blog/images/'.$width.'x'.$height.'/'.$image ?>" alt="" width="426" height="555" />
+                <img src="<?php echo URL_IMAGE.'/blog/images/'.$this->jsonObj[0]['image'] ?>" alt="" width="426" height="555" />
             </div>
         </divclass=>
     </div>
