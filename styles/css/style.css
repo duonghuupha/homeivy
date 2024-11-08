@@ -27741,7 +27741,7 @@ html:not(.tablet):not(.mobile) .thumbnail-indigo:hover .thumbnail-indigo-caption
 
 @media (min-width: 1600px) {
     .breadcrumbs-custom {
-        min-height: 456px;
+        min-height: 228px;
     }
 
     .breadcrumbs-custom-inner {

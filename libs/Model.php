@@ -116,7 +116,7 @@ class Model {
     function get_data_block_9($data_link){
         $query = $this->db->query("SELECT id, title, info, create_at, image, (SELECT tbl_category.title FROM tbl_category
                                     WHERE tbl_category.id = cate_id) AS cate_title FROM tbl_blog WHERE status = 1 AND
-                                    FIND_IN_SET(cate_id, '$data_link') ORDER BY id DESC LIMIT 0,  1");
+                                    FIND_IN_SET(cate_id, '$data_link') ORDER BY id DESC LIMIT 0, 2");
         return $query->fetchAll();
     }
 /////////////////////////////////////end cac ham khac ///////////////////////////////////////////////////////////////////////

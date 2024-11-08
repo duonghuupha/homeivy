@@ -2,7 +2,7 @@
 $item = $this->_Data->get_setting();
 ?>
 <!-- Breadcrumbs-->
-<section class="breadcrumbs-custom bg-image" style="background-image: url(<?php echo URL.'/styles/' ?>images/breadcrumbs-bg.jpg);">
+<section class="breadcrumbs-custom bg-image" style="background-image: url(<?php echo URL.'/styles/' ?>images/bg_breach.png);">
     <div class="breadcrumbs-custom-inner">
         <div class="breadcrumbs-custom-container container">
             <div class="breadcrumbs-custom-main">

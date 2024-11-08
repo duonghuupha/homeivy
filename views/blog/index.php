@@ -3,7 +3,7 @@ $item = $this->jsonObj;
 $json = $this->json; $perpage = $this->perpage; $pages = $this->page;
 ?>
 <!-- Breadcrumbs-->
-<section class="breadcrumbs-custom bg-image" style="background-image: url(<?php echo URL.'/styles/' ?>images/breadcrumbs-bg.jpg);">
+<section class="breadcrumbs-custom bg-image" style="background-image: url(<?php echo URL.'/styles/' ?>images/bg_breach.png);">
     <div class="breadcrumbs-custom-inner">
         <div class="breadcrumbs-custom-container container">
             <div class="breadcrumbs-custom-main">
