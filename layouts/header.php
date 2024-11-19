@@ -10,6 +10,9 @@ $setting = $this->_Data->get_setting();
     <meta name="viewport" content="width=device-width height=device-height initial-scale=1.0 maximum-scale=1.0 user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="Trung tâm thú y IVYVET là một cơ sở chăm sóc sức khỏe cho thú cưng với đội ngũ bác sĩ thú y chuyên nghiệp và tận tâm. IVYVET cung cấp các dịch vụ đa dạng như khám và điều trị bệnh, tiêm phòng, phẫu thuật, và tư vấn dinh dưỡng cho thú cưng. Với trang thiết bị hiện đại và môi trường thân thiện, IVYVET cam kết mang đến sự chăm sóc tốt nhất cho các người bạn bốn chân của bạn." />
+    <meta name="keywords" content="Bệnh viện thú y, Thú y gia lâm, Spa chó mèo,..." />
     <link rel="icon" href="<?php echo URL_IMAGE ?>/other/<?php echo $setting[0]['icon'] ?>" type="image/x-icon">
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Work+Sans:300,700,800%7COswald:300,400,500">

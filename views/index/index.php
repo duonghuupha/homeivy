@@ -177,11 +177,10 @@ $data_block5 = $this->_Data->get_data_block_5($row_block5[0]['data']);
         </a>
     </div>
 </section>
-
+<!--
 <?php
 $json_block6 = $this->_Data->get_data_block_6();
 ?>
-<!-- Pricing-->
 <section class="section section-lg bg-gray-100 section-decorated-7">
     <div class="decor-1">
         <img src="<?php echo URL.'/styles/' ?>images/bubbles-171x230.png" alt="" width="171" height="230" />
@@ -195,7 +194,6 @@ $json_block6 = $this->_Data->get_data_block_6();
             foreach($this->_Data->get_data_block_6_price($json_block6[0]['data']) as $row_block6){
             ?>
             <div class="col-sm-6 col-lg-4 wow-outer">
-                <!-- Pricing Minimal-->
                 <article class="pricing-minimal wow slideInRight">
                     <h5 class="pricing-minimal-title">
                         <a href="javascript:void(0)"><?php echo $row_block6['title'] ?></a>
@@ -214,7 +212,7 @@ $json_block6 = $this->_Data->get_data_block_6();
             ?>
         </div>
     </div>
-</section>
+</section>-->
 
 <?php
 $json_block7 = $this->_Data->get_data_block7();
