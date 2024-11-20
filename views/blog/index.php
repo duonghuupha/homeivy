@@ -30,7 +30,7 @@ $json = $this->json; $perpage = $this->perpage; $pages = $this->page;
                         </a>
                         <h4 class="post-modern-title">
                             <a href="<?php echo URL.'/'.$this->_Convert->vn2latin($row['title'], true).'-post-'.base64_encode($row['id']).'html' ?>">
-                                <?php echo $this->_Convert->cut($row['title'], 55) ?>
+                                <?php echo $this->_Convert->cut($row['title'], 52) ?>
                             </a>
                         </h4>
                         <ul class="post-modern-meta">

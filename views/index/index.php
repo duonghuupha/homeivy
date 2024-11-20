@@ -302,7 +302,7 @@ $json_block9 = $this->_Data->get_data_block9();
                     </a>
                     <h4 class="post-modern-title">
                         <a href="<?php echo URL.'/'.$this->_Convert->vn2latin($row_block9['title'], true).'-post-'.base64_encode($row_block9['id']).'html' ?>" title="<?php echo $row_block9['title'] ?>">
-                            <?php echo $this->_Convert->cut($row_block9['title'], 55) ?>
+                            <?php echo $this->_Convert->cut($row_block9['title'], 52) ?>
                         </a>
                     </h4>
                     <ul class="post-modern-meta">
