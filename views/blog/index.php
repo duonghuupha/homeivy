@@ -1,5 +1,4 @@
 <?php
-$item = $this->jsonObj;
 $json = $this->json; $perpage = $this->perpage; $pages = $this->page;
 ?>
 <!-- Breadcrumbs-->
@@ -49,9 +48,9 @@ $json = $this->json; $perpage = $this->perpage; $pages = $this->page;
             ?>
         </div>
         <?php
-        if($jsonObj['total'] > $perpage){
-            $pagination = $this->_Convert->pagination($jsonObj['total'], $pages, $perpage);
-            $createlink = $this->_Convert->createLinks($jsonObj['total'], $perpage, $pagination['number'], 1);
+        if($json['total'] > $perpage){
+            $pagination = $this->_Convert->pagination($json['total'], $pages, $perpage);
+            $createlink = $this->_Convert->createLinks($json['total'], $perpage, $pagination['number'], 1);
         ?>
         <div class="pagination">
             <?php echo $createlink ?>
