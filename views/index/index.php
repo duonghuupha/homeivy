@@ -152,14 +152,14 @@ $data_block5 = $this->_Data->get_data_block_5($row_block5[0]['data']);
         <div class="row row-30 offset-top-2">
             <?php
             foreach($data_block5 as $item_block5){
-                $width_block5 = 270; $height_block5 = 200;
+                $width_block5 = 320; $height_block5 = 237;
                 $image_block5 = $this->_Convert->convert_img('blog/images/', $item_block5['image'], $width_block5, $height_block5, 2);
             ?>
-            <div class="col-sm-6 col-lg-3 wow-outer">
+            <div class="col-sm-6 col-lg-4 wow-outer">
                 <!-- Thumbnail Light-->
                 <article class="thumbnail-light wow slideInLeft">
                     <a class="thumbnail-light-media" href="<?php echo URL.'/'.$this->_Convert->vn2latin($item_block5['title'], true).'-service-'.base64_encode($item_block5['id']).'.html' ?>">
-                        <img class="thumbnail-light-image" src="<?php echo URL_IMAGE.'/blog/images/'.$item_block5['image'] ?>" alt="" width="270" height="200" />
+                        <img class="thumbnail-light-image" src="<?php echo URL_IMAGE.'/blog/images/'.$width_block5.'x'.$height_block5.'/'.$image_block5 ?>" alt="" width="320" height="237" />
                     </a>
                     <h5 class="thumbnail-light-title">
                         <a href="<?php echo URL.'/'.$this->_Convert->vn2latin($item_block5['title'], true).'-service-'.base64_encode($item_block5['id']).'.html' ?>"><?php echo $item_block5['title'] ?></a>

@@ -31102,7 +31102,7 @@ html [class*='section-'].section-bottom-0 {
         position: absolute;
         right: 334px;
         top: -20px;
-        z-index: 2;
+        z-index: 0;
     }
 }
 
